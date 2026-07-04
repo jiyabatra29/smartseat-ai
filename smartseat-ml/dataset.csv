@@ -1,0 +1,3001 @@
+Restaurant,Day,Hour,Weekend,Crowd,WaitTime
+Subway,Thursday,10,0,14,1
+Domino's,Wednesday,18,0,99,43
+KFC,Thursday,9,0,32,9
+KFC,Thursday,19,0,94,43
+KFC,Wednesday,15,0,25,1
+Subway,Wednesday,15,0,59,15
+KFC,Wednesday,20,0,97,37
+Domino's,Thursday,16,0,30,5
+Domino's,Monday,13,0,62,12
+Pizza Hut,Sunday,11,1,52,16
+McDonald's,Tuesday,15,0,28,1
+Pizza Hut,Tuesday,16,0,56,18
+Domino's,Wednesday,14,0,82,28
+Subway,Tuesday,21,0,97,43
+Burger King,Friday,22,0,57,15
+Domino's,Tuesday,10,0,10,5
+Subway,Friday,13,0,84,25
+Subway,Tuesday,19,0,94,44
+Subway,Friday,15,0,43,6
+Burger King,Sunday,16,1,24,4
+Burger King,Monday,12,0,79,20
+Subway,Thursday,11,0,26,2
+Domino's,Sunday,11,1,22,1
+Pizza Hut,Saturday,17,1,21,3
+Domino's,Wednesday,18,0,84,23
+McDonald's,Sunday,22,1,45,8
+Burger King,Saturday,13,1,81,24
+KFC,Tuesday,9,0,14,1
+Pizza Hut,Wednesday,14,0,83,23
+Pizza Hut,Tuesday,17,0,20,0
+Subway,Saturday,22,1,70,22
+Subway,Friday,20,0,76,30
+Burger King,Sunday,13,1,89,44
+Pizza Hut,Saturday,16,1,63,14
+KFC,Friday,14,0,78,29
+KFC,Friday,22,0,54,15
+Subway,Saturday,21,1,100,31
+McDonald's,Sunday,17,1,52,12
+Domino's,Monday,21,0,92,34
+Pizza Hut,Thursday,20,0,81,28
+Pizza Hut,Sunday,16,1,46,12
+Subway,Friday,15,0,19,2
+Domino's,Monday,16,0,51,12
+Subway,Tuesday,15,0,51,14
+Domino's,Wednesday,14,0,84,28
+McDonald's,Thursday,21,0,70,27
+Pizza Hut,Saturday,21,1,100,42
+Burger King,Monday,11,0,60,12
+Domino's,Wednesday,17,0,28,0
+Burger King,Monday,18,0,84,23
+Subway,Friday,14,0,66,13
+Subway,Friday,21,0,75,28
+Subway,Saturday,20,1,100,38
+Subway,Thursday,21,0,95,34
+KFC,Friday,10,0,12,3
+Subway,Monday,14,0,73,21
+Burger King,Friday,20,0,85,42
+Burger King,Sunday,15,1,31,8
+Burger King,Thursday,16,0,35,7
+Subway,Saturday,13,1,74,20
+Domino's,Sunday,11,1,28,1
+Subway,Saturday,15,1,44,9
+Subway,Friday,12,0,89,45
+Pizza Hut,Saturday,14,1,94,31
+Burger King,Friday,21,0,82,30
+KFC,Thursday,19,0,71,20
+Pizza Hut,Thursday,19,0,90,30
+KFC,Wednesday,15,0,55,18
+Burger King,Wednesday,10,0,24,0
+Domino's,Friday,17,0,32,6
+McDonald's,Wednesday,15,0,44,7
+Burger King,Wednesday,21,0,78,20
+Domino's,Monday,13,0,80,22
+McDonald's,Monday,9,0,23,3
+Domino's,Thursday,15,0,20,5
+Burger King,Sunday,19,1,88,44
+McDonald's,Wednesday,15,0,44,8
+Pizza Hut,Monday,18,0,95,37
+Burger King,Tuesday,15,0,27,4
+McDonald's,Sunday,15,1,35,7
+McDonald's,Tuesday,13,0,60,15
+KFC,Sunday,21,1,88,37
+Burger King,Sunday,22,1,48,5
+McDonald's,Thursday,20,0,81,23
+Pizza Hut,Monday,21,0,72,24
+McDonald's,Sunday,16,1,66,14
+Pizza Hut,Friday,16,0,39,6
+McDonald's,Tuesday,18,0,94,40
+Subway,Friday,13,0,90,45
+Burger King,Thursday,10,0,15,0
+Domino's,Monday,18,0,92,35
+Subway,Sunday,17,1,19,0
+KFC,Tuesday,14,0,73,27
+Burger King,Monday,12,0,61,19
+Pizza Hut,Monday,16,0,45,5
+KFC,Wednesday,12,0,79,27
+Subway,Friday,19,0,87,43
+KFC,Tuesday,22,0,22,0
+Domino's,Sunday,19,1,85,44
+Domino's,Wednesday,21,0,100,45
+Burger King,Saturday,20,1,100,38
+Pizza Hut,Tuesday,18,0,84,22
+Pizza Hut,Friday,16,0,52,20
+Domino's,Sunday,22,1,32,12
+Domino's,Friday,21,0,87,39
+Domino's,Monday,10,0,46,7
+McDonald's,Wednesday,17,0,44,7
+Pizza Hut,Tuesday,12,0,60,16
+KFC,Saturday,22,1,62,15
+McDonald's,Friday,10,0,32,6
+Domino's,Tuesday,13,0,88,35
+KFC,Saturday,18,1,93,41
+KFC,Sunday,14,1,84,20
+Pizza Hut,Thursday,18,0,82,21
+Pizza Hut,Thursday,21,0,100,34
+KFC,Sunday,21,1,94,39
+Pizza Hut,Sunday,21,1,96,39
+Subway,Wednesday,21,0,86,38
+KFC,Wednesday,15,0,37,9
+Burger King,Saturday,11,1,68,14
+Domino's,Friday,14,0,76,29
+Subway,Friday,16,0,19,0
+McDonald's,Wednesday,15,0,25,5
+Domino's,Thursday,20,0,82,28
+Pizza Hut,Monday,22,0,27,3
+Subway,Monday,11,0,40,11
+KFC,Friday,20,0,83,22
+Domino's,Wednesday,14,0,65,14
+Pizza Hut,Wednesday,14,0,71,29
+Domino's,Saturday,13,1,88,42
+Pizza Hut,Wednesday,19,0,76,21
+Burger King,Wednesday,17,0,59,15
+Domino's,Saturday,16,1,60,19
+Domino's,Thursday,22,0,54,16
+KFC,Tuesday,17,0,21,2
+Burger King,Thursday,14,0,79,23
+McDonald's,Tuesday,21,0,83,22
+Pizza Hut,Saturday,19,1,100,32
+Subway,Tuesday,17,0,38,8
+McDonald's,Thursday,11,0,36,7
+Pizza Hut,Wednesday,17,0,22,3
+Pizza Hut,Wednesday,18,0,78,21
+Domino's,Wednesday,17,0,55,17
+McDonald's,Sunday,16,1,46,9
+McDonald's,Thursday,14,0,65,13
+Pizza Hut,Friday,10,0,23,5
+McDonald's,Friday,11,0,16,5
+Burger King,Thursday,10,0,23,5
+Pizza Hut,Saturday,15,1,52,20
+Domino's,Saturday,9,1,56,17
+KFC,Friday,16,0,50,17
+McDonald's,Saturday,12,1,96,45
+McDonald's,Tuesday,18,0,84,27
+Pizza Hut,Tuesday,15,0,25,5
+Burger King,Thursday,16,0,58,17
+Subway,Thursday,19,0,100,39
+Pizza Hut,Monday,13,0,61,18
+Burger King,Friday,21,0,85,31
+Pizza Hut,Tuesday,16,0,17,0
+KFC,Tuesday,18,0,75,20
+Subway,Monday,10,0,17,5
+KFC,Tuesday,21,0,84,20
+Domino's,Saturday,12,1,74,24
+KFC,Tuesday,11,0,28,4
+McDonald's,Sunday,16,1,51,18
+Domino's,Sunday,14,1,81,29
+Domino's,Sunday,13,1,72,30
+Subway,Friday,19,0,89,34
+Pizza Hut,Friday,14,0,70,30
+KFC,Wednesday,9,0,23,0
+McDonald's,Tuesday,21,0,93,35
+McDonald's,Monday,21,0,94,42
+Pizza Hut,Monday,22,0,33,5
+Subway,Wednesday,9,0,36,6
+Burger King,Friday,22,0,14,1
+McDonald's,Tuesday,22,0,52,15
+KFC,Monday,12,0,64,12
+KFC,Monday,22,0,57,12
+Domino's,Saturday,15,1,34,10
+Pizza Hut,Tuesday,17,0,33,6
+Domino's,Wednesday,22,0,13,4
+Domino's,Wednesday,15,0,17,1
+Domino's,Monday,21,0,79,21
+McDonald's,Thursday,13,0,60,14
+Pizza Hut,Sunday,16,1,31,8
+Pizza Hut,Saturday,21,1,88,33
+KFC,Thursday,21,0,96,38
+Domino's,Wednesday,19,0,71,26
+McDonald's,Tuesday,20,0,81,27
+Domino's,Wednesday,16,0,39,10
+Subway,Saturday,9,1,23,4
+Domino's,Sunday,17,1,63,17
+Pizza Hut,Monday,17,0,11,1
+KFC,Wednesday,18,0,79,25
+McDonald's,Tuesday,19,0,83,22
+Burger King,Tuesday,16,0,33,6
+Subway,Thursday,18,0,76,29
+Subway,Wednesday,9,0,57,20
+McDonald's,Thursday,14,0,72,30
+KFC,Monday,19,0,89,41
+McDonald's,Wednesday,9,0,58,14
+Domino's,Sunday,22,1,65,20
+Burger King,Friday,14,0,65,16
+Burger King,Tuesday,22,0,45,6
+KFC,Saturday,18,1,88,43
+Burger King,Friday,16,0,32,7
+McDonald's,Friday,19,0,97,33
+Subway,Sunday,13,1,87,38
+Domino's,Monday,14,0,67,20
+Subway,Friday,11,0,48,9
+Pizza Hut,Thursday,20,0,96,39
+Pizza Hut,Thursday,16,0,13,5
+Subway,Wednesday,16,0,20,5
+Pizza Hut,Saturday,9,1,27,4
+McDonald's,Saturday,13,1,71,21
+Subway,Wednesday,20,0,93,37
+Pizza Hut,Tuesday,21,0,88,34
+Subway,Sunday,10,1,21,4
+Burger King,Tuesday,19,0,82,24
+McDonald's,Wednesday,11,0,52,16
+McDonald's,Monday,21,0,79,27
+KFC,Saturday,22,1,49,12
+KFC,Sunday,15,1,32,12
+Pizza Hut,Monday,22,0,42,6
+Subway,Monday,13,0,60,18
+McDonald's,Tuesday,17,0,28,2
+Subway,Sunday,18,1,92,37
+Subway,Wednesday,15,0,10,2
+Domino's,Saturday,20,1,88,41
+McDonald's,Tuesday,9,0,49,11
+Subway,Thursday,14,0,78,24
+Pizza Hut,Wednesday,12,0,86,45
+Subway,Wednesday,21,0,90,42
+Domino's,Monday,21,0,87,35
+Subway,Tuesday,20,0,73,27
+Burger King,Friday,15,0,58,18
+Pizza Hut,Sunday,22,1,18,0
+McDonald's,Tuesday,21,0,76,24
+Pizza Hut,Thursday,13,0,64,12
+Subway,Thursday,12,0,63,18
+McDonald's,Thursday,16,0,55,20
+Domino's,Saturday,20,1,95,42
+Burger King,Tuesday,10,0,18,4
+Domino's,Monday,19,0,73,27
+Domino's,Tuesday,17,0,37,10
+Domino's,Sunday,19,1,100,38
+Pizza Hut,Friday,18,0,98,36
+Subway,Saturday,9,1,47,11
+KFC,Monday,16,0,11,0
+KFC,Thursday,13,0,88,33
+Domino's,Thursday,12,0,74,22
+Subway,Wednesday,12,0,74,28
+Burger King,Friday,21,0,93,36
+Subway,Wednesday,13,0,84,30
+Domino's,Sunday,22,1,33,11
+Burger King,Tuesday,17,0,43,9
+Burger King,Tuesday,10,0,28,2
+Subway,Tuesday,16,0,33,10
+Subway,Saturday,14,1,91,41
+Domino's,Monday,15,0,29,0
+Pizza Hut,Friday,11,0,26,3
+Subway,Sunday,14,1,76,24
+McDonald's,Monday,9,0,30,8
+McDonald's,Sunday,15,1,63,19
+Subway,Wednesday,21,0,78,24
+McDonald's,Monday,16,0,10,1
+Burger King,Thursday,22,0,19,1
+McDonald's,Tuesday,10,0,11,1
+Subway,Monday,16,0,50,18
+KFC,Sunday,21,1,90,42
+Subway,Friday,15,0,48,5
+Subway,Monday,13,0,70,21
+McDonald's,Wednesday,12,0,65,13
+McDonald's,Thursday,16,0,31,5
+McDonald's,Tuesday,16,0,21,1
+Pizza Hut,Friday,22,0,46,11
+Burger King,Thursday,19,0,75,21
+Burger King,Sunday,19,1,97,45
+McDonald's,Monday,13,0,89,34
+KFC,Thursday,12,0,64,20
+McDonald's,Monday,18,0,98,30
+Subway,Friday,21,0,73,21
+Subway,Tuesday,15,0,39,10
+Pizza Hut,Wednesday,13,0,86,39
+McDonald's,Monday,17,0,26,0
+McDonald's,Monday,18,0,83,25
+Pizza Hut,Wednesday,20,0,74,25
+McDonald's,Wednesday,10,0,22,5
+Domino's,Sunday,19,1,100,44
+McDonald's,Saturday,12,1,88,35
+KFC,Saturday,22,1,63,16
+Burger King,Tuesday,22,0,49,5
+Pizza Hut,Tuesday,11,0,40,7
+Burger King,Sunday,14,1,70,28
+McDonald's,Tuesday,22,0,53,20
+Pizza Hut,Friday,14,0,67,19
+Pizza Hut,Monday,14,0,90,37
+KFC,Wednesday,12,0,73,25
+Subway,Thursday,12,0,75,27
+KFC,Thursday,22,0,57,17
+KFC,Saturday,16,1,36,7
+Burger King,Saturday,11,1,38,12
+Domino's,Monday,21,0,92,36
+Pizza Hut,Sunday,20,1,100,39
+McDonald's,Friday,17,0,24,5
+Domino's,Monday,18,0,95,34
+McDonald's,Friday,21,0,97,38
+Burger King,Friday,21,0,79,21
+Domino's,Tuesday,12,0,66,19
+McDonald's,Tuesday,21,0,94,39
+Pizza Hut,Thursday,14,0,85,33
+Subway,Thursday,10,0,48,6
+Domino's,Sunday,15,1,31,5
+Burger King,Friday,13,0,73,29
+KFC,Sunday,21,1,100,30
+KFC,Tuesday,11,0,19,1
+McDonald's,Saturday,18,1,93,45
+Pizza Hut,Sunday,13,1,88,41
+Burger King,Wednesday,10,0,41,9
+McDonald's,Thursday,13,0,84,25
+McDonald's,Tuesday,10,0,45,8
+Subway,Tuesday,13,0,67,16
+Burger King,Tuesday,22,0,32,12
+Pizza Hut,Thursday,19,0,86,38
+Pizza Hut,Sunday,13,1,89,45
+KFC,Monday,19,0,78,29
+KFC,Tuesday,18,0,83,25
+McDonald's,Monday,17,0,33,10
+Subway,Saturday,9,1,61,16
+McDonald's,Friday,11,0,38,5
+KFC,Sunday,10,1,45,9
+KFC,Wednesday,14,0,70,28
+Subway,Saturday,19,1,100,45
+Pizza Hut,Monday,19,0,78,21
+KFC,Thursday,10,0,60,14
+McDonald's,Friday,17,0,17,3
+Burger King,Monday,16,0,41,7
+Domino's,Wednesday,12,0,83,24
+Burger King,Sunday,13,1,71,23
+Subway,Tuesday,21,0,78,23
+Subway,Wednesday,21,0,73,30
+Burger King,Thursday,15,0,40,11
+Burger King,Thursday,18,0,99,32
+Subway,Wednesday,9,0,26,0
+Subway,Saturday,9,1,29,3
+Subway,Tuesday,15,0,21,0
+KFC,Sunday,16,1,49,10
+McDonald's,Saturday,10,1,23,5
+Burger King,Saturday,12,1,100,32
+Pizza Hut,Monday,16,0,11,5
+Pizza Hut,Tuesday,16,0,38,11
+KFC,Monday,20,0,83,24
+KFC,Saturday,22,1,27,5
+Burger King,Thursday,21,0,72,24
+Pizza Hut,Wednesday,15,0,41,6
+Pizza Hut,Wednesday,16,0,60,15
+McDonald's,Saturday,21,1,85,37
+KFC,Saturday,21,1,76,30
+McDonald's,Saturday,15,1,57,12
+Pizza Hut,Friday,10,0,19,4
+Subway,Wednesday,10,0,60,20
+KFC,Sunday,18,1,90,39
+Pizza Hut,Tuesday,14,0,60,16
+McDonald's,Saturday,11,1,73,25
+Domino's,Sunday,19,1,99,38
+Subway,Tuesday,13,0,67,18
+KFC,Saturday,16,1,45,12
+KFC,Thursday,11,0,41,6
+Burger King,Saturday,11,1,43,5
+Burger King,Saturday,16,1,38,11
+Domino's,Tuesday,22,0,50,12
+Burger King,Thursday,20,0,92,39
+Burger King,Monday,21,0,80,27
+Burger King,Thursday,18,0,77,23
+McDonald's,Tuesday,21,0,94,43
+Domino's,Saturday,19,1,95,44
+Pizza Hut,Saturday,10,1,57,13
+Pizza Hut,Thursday,18,0,98,31
+McDonald's,Thursday,17,0,56,20
+Subway,Tuesday,11,0,38,9
+Burger King,Tuesday,9,0,42,9
+Burger King,Thursday,21,0,78,30
+Burger King,Saturday,11,1,36,6
+KFC,Sunday,16,1,37,7
+KFC,Monday,16,0,24,4
+McDonald's,Monday,9,0,35,9
+KFC,Sunday,12,1,96,43
+KFC,Thursday,17,0,19,4
+Domino's,Saturday,19,1,93,36
+McDonald's,Wednesday,15,0,58,19
+McDonald's,Tuesday,19,0,90,30
+Domino's,Friday,17,0,55,15
+McDonald's,Monday,19,0,71,22
+Subway,Monday,16,0,25,1
+KFC,Saturday,18,1,96,42
+Domino's,Sunday,16,1,54,14
+Burger King,Tuesday,16,0,28,2
+McDonald's,Thursday,10,0,23,0
+McDonald's,Wednesday,15,0,56,13
+McDonald's,Friday,16,0,41,7
+Burger King,Sunday,21,1,78,25
+McDonald's,Thursday,14,0,89,31
+Pizza Hut,Sunday,17,1,54,18
+Subway,Monday,19,0,81,24
+KFC,Saturday,13,1,93,36
+KFC,Tuesday,9,0,47,5
+KFC,Wednesday,18,0,70,23
+KFC,Tuesday,9,0,28,0
+Burger King,Sunday,17,1,62,13
+Burger King,Monday,10,0,49,6
+KFC,Friday,19,0,81,30
+Burger King,Friday,13,0,78,28
+KFC,Saturday,12,1,86,30
+Burger King,Saturday,18,1,95,41
+Burger King,Wednesday,16,0,44,11
+Domino's,Wednesday,9,0,27,3
+KFC,Sunday,15,1,23,1
+Subway,Thursday,17,0,25,4
+KFC,Thursday,14,0,64,20
+McDonald's,Tuesday,18,0,77,27
+KFC,Tuesday,14,0,83,25
+KFC,Monday,13,0,75,23
+McDonald's,Saturday,11,1,35,6
+Domino's,Thursday,17,0,57,13
+Burger King,Tuesday,9,0,58,19
+Domino's,Thursday,18,0,96,37
+Pizza Hut,Sunday,21,1,98,36
+McDonald's,Tuesday,10,0,30,8
+Domino's,Wednesday,15,0,46,10
+McDonald's,Wednesday,18,0,91,32
+Burger King,Saturday,10,1,26,0
+Domino's,Friday,13,0,74,20
+McDonald's,Thursday,16,0,20,2
+Subway,Tuesday,13,0,81,23
+Burger King,Saturday,9,1,57,19
+Subway,Sunday,22,1,27,1
+Subway,Saturday,17,1,45,7
+Domino's,Thursday,17,0,50,14
+Burger King,Tuesday,10,0,46,11
+Subway,Thursday,10,0,11,1
+KFC,Wednesday,20,0,77,30
+Subway,Saturday,14,1,90,42
+McDonald's,Tuesday,13,0,81,26
+Burger King,Friday,18,0,100,31
+Domino's,Wednesday,9,0,32,6
+Burger King,Saturday,14,1,93,44
+KFC,Sunday,14,1,90,33
+McDonald's,Wednesday,20,0,92,44
+KFC,Friday,18,0,84,25
+Subway,Friday,11,0,58,16
+KFC,Wednesday,18,0,93,45
+KFC,Thursday,11,0,16,4
+Subway,Friday,12,0,60,17
+Pizza Hut,Saturday,16,1,26,1
+McDonald's,Friday,16,0,50,12
+Burger King,Sunday,10,1,24,0
+Burger King,Saturday,10,1,51,13
+Burger King,Thursday,15,0,19,2
+Burger King,Thursday,11,0,33,9
+Subway,Tuesday,11,0,37,9
+Burger King,Thursday,15,0,49,8
+Subway,Monday,20,0,75,23
+McDonald's,Monday,15,0,29,4
+Burger King,Wednesday,20,0,86,30
+Burger King,Thursday,16,0,57,13
+Burger King,Sunday,18,1,100,35
+McDonald's,Monday,11,0,52,20
+Domino's,Friday,13,0,90,41
+Burger King,Tuesday,11,0,33,12
+Domino's,Wednesday,15,0,54,13
+McDonald's,Monday,20,0,95,31
+Subway,Friday,18,0,87,42
+Domino's,Wednesday,14,0,81,20
+KFC,Tuesday,9,0,35,11
+KFC,Thursday,20,0,82,28
+KFC,Monday,20,0,80,21
+Domino's,Saturday,12,1,100,30
+Burger King,Thursday,20,0,81,25
+McDonald's,Wednesday,21,0,94,45
+Pizza Hut,Wednesday,10,0,39,7
+KFC,Tuesday,11,0,56,14
+KFC,Friday,9,0,20,0
+KFC,Thursday,11,0,40,8
+Pizza Hut,Sunday,15,1,53,19
+Subway,Friday,10,0,58,16
+Domino's,Sunday,20,1,77,28
+McDonald's,Sunday,21,1,86,37
+KFC,Sunday,21,1,99,44
+Domino's,Saturday,11,1,62,13
+Pizza Hut,Friday,16,0,55,14
+KFC,Sunday,21,1,84,29
+Burger King,Friday,18,0,89,31
+Subway,Wednesday,22,0,50,19
+Pizza Hut,Saturday,9,1,48,10
+Pizza Hut,Wednesday,21,0,73,28
+Burger King,Monday,16,0,36,7
+Pizza Hut,Saturday,18,1,89,30
+Domino's,Monday,10,0,16,1
+McDonald's,Tuesday,19,0,87,44
+Burger King,Tuesday,19,0,96,37
+Burger King,Wednesday,20,0,92,35
+KFC,Friday,12,0,85,36
+Subway,Tuesday,13,0,68,16
+Burger King,Wednesday,11,0,37,8
+KFC,Saturday,13,1,77,29
+Domino's,Wednesday,17,0,53,14
+McDonald's,Wednesday,19,0,92,32
+KFC,Friday,17,0,31,8
+Pizza Hut,Tuesday,20,0,74,23
+Domino's,Thursday,20,0,82,20
+KFC,Tuesday,22,0,39,8
+Pizza Hut,Wednesday,12,0,69,19
+Domino's,Thursday,10,0,22,0
+KFC,Saturday,20,1,100,38
+Domino's,Thursday,20,0,80,25
+Burger King,Thursday,9,0,43,12
+McDonald's,Friday,11,0,38,5
+Pizza Hut,Friday,17,0,57,14
+Pizza Hut,Tuesday,11,0,54,12
+Subway,Monday,16,0,49,6
+Pizza Hut,Tuesday,12,0,80,26
+Domino's,Wednesday,16,0,44,6
+Domino's,Friday,20,0,76,21
+McDonald's,Saturday,11,1,28,2
+Subway,Monday,11,0,37,10
+Subway,Wednesday,9,0,27,4
+Burger King,Sunday,19,1,100,43
+KFC,Wednesday,21,0,93,44
+McDonald's,Wednesday,19,0,97,38
+Pizza Hut,Wednesday,19,0,95,31
+McDonald's,Sunday,15,1,33,6
+Domino's,Tuesday,20,0,86,34
+Domino's,Friday,20,0,72,27
+Domino's,Saturday,9,1,48,9
+Burger King,Wednesday,20,0,96,42
+Subway,Saturday,18,1,100,37
+Burger King,Monday,17,0,29,1
+KFC,Thursday,17,0,23,0
+KFC,Friday,21,0,84,29
+Burger King,Sunday,15,1,23,5
+Subway,Monday,12,0,69,18
+McDonald's,Thursday,21,0,80,24
+Pizza Hut,Friday,12,0,88,33
+McDonald's,Monday,15,0,11,5
+McDonald's,Tuesday,10,0,58,19
+KFC,Friday,22,0,15,1
+Burger King,Wednesday,10,0,11,1
+Burger King,Sunday,11,1,74,20
+McDonald's,Friday,18,0,97,30
+Burger King,Wednesday,14,0,62,12
+McDonald's,Monday,21,0,100,39
+Domino's,Sunday,22,1,47,12
+McDonald's,Saturday,19,1,100,37
+McDonald's,Tuesday,16,0,42,5
+KFC,Wednesday,14,0,67,18
+Domino's,Tuesday,14,0,82,27
+Domino's,Thursday,16,0,35,6
+Pizza Hut,Sunday,18,1,87,45
+Burger King,Friday,22,0,28,0
+KFC,Wednesday,20,0,96,33
+Subway,Monday,20,0,79,27
+Pizza Hut,Thursday,12,0,90,43
+Domino's,Friday,18,0,94,43
+Burger King,Sunday,18,1,95,30
+McDonald's,Monday,16,0,36,10
+Domino's,Thursday,17,0,56,18
+McDonald's,Sunday,14,1,84,27
+Pizza Hut,Friday,11,0,39,11
+McDonald's,Friday,13,0,68,17
+Pizza Hut,Sunday,10,1,17,1
+McDonald's,Wednesday,22,0,10,1
+Burger King,Friday,10,0,29,2
+Pizza Hut,Wednesday,11,0,31,12
+Subway,Sunday,9,1,49,8
+Domino's,Friday,12,0,81,20
+Pizza Hut,Saturday,19,1,91,35
+KFC,Friday,13,0,66,13
+McDonald's,Wednesday,9,0,34,7
+Subway,Sunday,19,1,92,43
+Domino's,Friday,17,0,36,9
+Pizza Hut,Friday,14,0,88,35
+Pizza Hut,Wednesday,22,0,12,1
+Pizza Hut,Wednesday,14,0,70,26
+KFC,Tuesday,19,0,84,30
+McDonald's,Tuesday,17,0,20,3
+Subway,Friday,10,0,58,13
+Burger King,Friday,19,0,79,30
+Subway,Wednesday,10,0,35,8
+Burger King,Tuesday,20,0,73,30
+Burger King,Saturday,10,1,38,9
+Burger King,Thursday,22,0,24,4
+Domino's,Sunday,16,1,59,12
+McDonald's,Monday,22,0,41,5
+Pizza Hut,Saturday,10,1,39,5
+KFC,Friday,12,0,88,41
+KFC,Tuesday,10,0,10,4
+Subway,Thursday,13,0,87,33
+KFC,Thursday,13,0,71,23
+Burger King,Saturday,18,1,85,33
+McDonald's,Monday,18,0,89,39
+Pizza Hut,Thursday,15,0,20,0
+McDonald's,Thursday,11,0,43,5
+Domino's,Tuesday,19,0,77,27
+Domino's,Wednesday,18,0,95,41
+McDonald's,Tuesday,22,0,12,4
+Pizza Hut,Tuesday,17,0,16,1
+KFC,Wednesday,11,0,22,1
+Burger King,Tuesday,21,0,90,35
+Pizza Hut,Wednesday,20,0,74,28
+KFC,Wednesday,19,0,77,22
+Subway,Friday,12,0,88,36
+McDonald's,Monday,11,0,23,3
+Domino's,Wednesday,22,0,45,6
+Domino's,Tuesday,9,0,54,18
+Pizza Hut,Wednesday,18,0,88,40
+Burger King,Tuesday,15,0,30,7
+Domino's,Thursday,19,0,92,36
+KFC,Saturday,14,1,77,20
+McDonald's,Thursday,19,0,97,33
+Burger King,Sunday,21,1,89,34
+KFC,Tuesday,20,0,95,43
+Pizza Hut,Monday,9,0,60,16
+Subway,Thursday,11,0,40,10
+Burger King,Tuesday,10,0,10,3
+Pizza Hut,Saturday,19,1,90,43
+Pizza Hut,Wednesday,14,0,68,14
+KFC,Friday,18,0,75,20
+Subway,Tuesday,9,0,44,10
+Domino's,Thursday,22,0,45,5
+Subway,Monday,13,0,80,23
+Subway,Tuesday,15,0,60,14
+KFC,Tuesday,18,0,82,29
+McDonald's,Thursday,14,0,89,38
+McDonald's,Saturday,18,1,87,39
+Subway,Thursday,10,0,14,2
+Burger King,Wednesday,9,0,13,5
+Burger King,Friday,12,0,89,37
+Pizza Hut,Monday,20,0,89,43
+Domino's,Saturday,19,1,86,43
+Subway,Thursday,9,0,56,15
+KFC,Tuesday,14,0,70,28
+Subway,Thursday,14,0,73,23
+Subway,Wednesday,14,0,86,42
+McDonald's,Tuesday,11,0,31,8
+Subway,Friday,9,0,27,2
+Subway,Tuesday,22,0,51,13
+Subway,Thursday,13,0,70,29
+McDonald's,Thursday,22,0,15,5
+KFC,Friday,15,0,38,8
+Burger King,Sunday,10,1,51,17
+McDonald's,Monday,9,0,55,19
+McDonald's,Monday,16,0,14,0
+Burger King,Wednesday,18,0,82,30
+Burger King,Friday,17,0,31,11
+Subway,Friday,15,0,17,1
+Domino's,Monday,15,0,13,1
+KFC,Wednesday,9,0,42,10
+KFC,Thursday,14,0,70,21
+Pizza Hut,Tuesday,13,0,62,16
+KFC,Monday,13,0,86,39
+KFC,Saturday,14,1,85,44
+Burger King,Thursday,18,0,75,25
+Pizza Hut,Sunday,9,1,41,12
+Subway,Friday,14,0,68,15
+Pizza Hut,Monday,20,0,87,35
+Subway,Thursday,13,0,83,27
+KFC,Thursday,13,0,76,29
+McDonald's,Tuesday,16,0,42,6
+McDonald's,Monday,9,0,35,10
+KFC,Monday,12,0,80,26
+Pizza Hut,Monday,13,0,73,28
+Pizza Hut,Monday,10,0,17,5
+Pizza Hut,Friday,21,0,96,37
+Pizza Hut,Wednesday,15,0,17,5
+Burger King,Wednesday,10,0,21,5
+Subway,Tuesday,10,0,57,15
+Burger King,Saturday,12,1,82,24
+Burger King,Sunday,22,1,31,7
+KFC,Sunday,12,1,89,33
+Domino's,Thursday,17,0,41,11
+Subway,Friday,16,0,32,12
+Subway,Monday,14,0,82,24
+Subway,Friday,16,0,57,13
+Pizza Hut,Tuesday,22,0,33,12
+Domino's,Saturday,20,1,99,42
+McDonald's,Monday,11,0,33,5
+Subway,Saturday,20,1,100,36
+KFC,Tuesday,22,0,37,5
+McDonald's,Wednesday,19,0,80,22
+Burger King,Sunday,14,1,100,31
+Subway,Saturday,17,1,62,20
+Subway,Saturday,16,1,54,19
+Domino's,Tuesday,9,0,41,10
+Domino's,Tuesday,17,0,45,10
+Pizza Hut,Friday,12,0,67,16
+Pizza Hut,Wednesday,19,0,91,36
+Domino's,Friday,9,0,32,7
+Domino's,Tuesday,11,0,52,14
+McDonald's,Saturday,12,1,87,40
+Burger King,Wednesday,15,0,15,5
+Burger King,Sunday,11,1,21,3
+Pizza Hut,Friday,12,0,67,12
+KFC,Wednesday,21,0,100,31
+Subway,Saturday,18,1,85,42
+Pizza Hut,Wednesday,9,0,26,0
+Burger King,Saturday,11,1,53,18
+Domino's,Wednesday,16,0,31,6
+Burger King,Friday,12,0,66,15
+Domino's,Tuesday,16,0,31,6
+Burger King,Friday,22,0,49,11
+KFC,Sunday,22,1,32,12
+Subway,Monday,18,0,77,23
+Domino's,Tuesday,22,0,13,0
+Domino's,Thursday,16,0,49,5
+Burger King,Wednesday,16,0,48,9
+Burger King,Wednesday,17,0,13,0
+Subway,Saturday,12,1,95,32
+Pizza Hut,Thursday,16,0,46,12
+McDonald's,Sunday,13,1,78,25
+Subway,Friday,13,0,85,35
+KFC,Thursday,17,0,19,0
+McDonald's,Monday,17,0,24,3
+Domino's,Monday,11,0,34,5
+KFC,Wednesday,11,0,28,4
+Burger King,Wednesday,9,0,32,10
+KFC,Sunday,22,1,40,7
+Pizza Hut,Thursday,18,0,86,39
+McDonald's,Thursday,9,0,13,5
+Burger King,Saturday,21,1,95,31
+KFC,Thursday,11,0,34,10
+Domino's,Thursday,9,0,58,17
+Pizza Hut,Monday,21,0,80,30
+KFC,Sunday,18,1,100,42
+KFC,Sunday,11,1,32,7
+KFC,Monday,21,0,73,30
+McDonald's,Sunday,20,1,100,45
+Pizza Hut,Tuesday,20,0,95,36
+McDonald's,Monday,16,0,30,6
+Subway,Thursday,12,0,64,14
+Subway,Tuesday,9,0,57,18
+Subway,Friday,10,0,40,12
+Subway,Saturday,20,1,89,43
+KFC,Sunday,18,1,80,25
+Burger King,Saturday,17,1,68,19
+Pizza Hut,Monday,20,0,79,25
+Subway,Monday,17,0,21,5
+Pizza Hut,Friday,10,0,23,1
+KFC,Friday,18,0,78,28
+Domino's,Wednesday,12,0,75,30
+McDonald's,Tuesday,15,0,22,1
+Domino's,Friday,12,0,66,14
+Burger King,Saturday,14,1,99,30
+KFC,Tuesday,21,0,72,29
+Pizza Hut,Thursday,19,0,81,25
+Subway,Tuesday,15,0,43,5
+Pizza Hut,Saturday,14,1,82,22
+Subway,Monday,17,0,44,9
+KFC,Friday,12,0,84,26
+Burger King,Friday,16,0,41,10
+KFC,Monday,14,0,62,13
+Pizza Hut,Tuesday,12,0,71,22
+KFC,Monday,9,0,57,19
+Domino's,Monday,20,0,95,35
+Subway,Sunday,21,1,89,37
+Subway,Monday,18,0,89,33
+McDonald's,Monday,14,0,75,23
+Pizza Hut,Monday,10,0,30,7
+KFC,Friday,17,0,19,4
+Burger King,Tuesday,18,0,97,42
+Burger King,Tuesday,22,0,58,20
+Burger King,Wednesday,19,0,97,36
+Burger King,Thursday,10,0,53,12
+KFC,Saturday,11,1,72,27
+Burger King,Saturday,15,1,59,18
+Burger King,Thursday,18,0,72,30
+Domino's,Thursday,18,0,87,42
+McDonald's,Thursday,13,0,75,28
+Pizza Hut,Wednesday,20,0,92,38
+Pizza Hut,Monday,19,0,71,21
+Subway,Saturday,20,1,100,31
+McDonald's,Tuesday,12,0,78,23
+KFC,Monday,10,0,10,0
+McDonald's,Tuesday,21,0,78,28
+Subway,Friday,13,0,61,16
+Domino's,Monday,19,0,91,41
+McDonald's,Wednesday,19,0,88,31
+Domino's,Saturday,15,1,56,14
+Burger King,Thursday,11,0,57,20
+Burger King,Sunday,9,1,56,20
+Burger King,Monday,16,0,42,11
+Burger King,Sunday,12,1,93,45
+KFC,Monday,17,0,19,3
+McDonald's,Sunday,17,1,58,16
+Pizza Hut,Sunday,12,1,75,25
+Burger King,Tuesday,17,0,28,5
+Domino's,Saturday,16,1,44,9
+KFC,Tuesday,14,0,83,26
+McDonald's,Monday,17,0,56,18
+Burger King,Tuesday,14,0,60,17
+Domino's,Tuesday,11,0,16,5
+KFC,Tuesday,16,0,25,1
+Subway,Monday,14,0,62,13
+Subway,Sunday,9,1,69,17
+Subway,Wednesday,18,0,95,36
+McDonald's,Monday,9,0,31,12
+McDonald's,Friday,19,0,73,22
+Subway,Thursday,18,0,98,44
+Domino's,Saturday,16,1,58,16
+KFC,Sunday,10,1,59,18
+KFC,Wednesday,18,0,75,20
+Domino's,Tuesday,22,0,45,6
+Domino's,Thursday,11,0,20,2
+Burger King,Tuesday,11,0,59,20
+KFC,Monday,22,0,14,1
+Subway,Sunday,13,1,90,35
+Burger King,Wednesday,20,0,90,44
+KFC,Monday,14,0,72,24
+KFC,Monday,14,0,77,28
+KFC,Sunday,21,1,77,28
+KFC,Wednesday,20,0,82,21
+Domino's,Wednesday,9,0,16,3
+Burger King,Thursday,9,0,35,10
+Pizza Hut,Wednesday,16,0,45,10
+KFC,Tuesday,14,0,79,27
+Domino's,Saturday,22,1,67,16
+Burger King,Monday,14,0,68,20
+McDonald's,Wednesday,15,0,42,12
+McDonald's,Wednesday,15,0,56,15
+Domino's,Sunday,20,1,82,27
+Burger King,Wednesday,20,0,88,35
+Subway,Tuesday,12,0,85,44
+Domino's,Wednesday,17,0,40,9
+Domino's,Tuesday,9,0,43,10
+KFC,Sunday,17,1,22,0
+KFC,Thursday,21,0,93,32
+KFC,Monday,21,0,83,22
+Burger King,Tuesday,9,0,36,11
+KFC,Sunday,13,1,77,29
+Domino's,Tuesday,19,0,80,23
+KFC,Saturday,22,1,52,18
+Pizza Hut,Monday,17,0,48,9
+KFC,Monday,18,0,84,24
+McDonald's,Thursday,11,0,50,17
+McDonald's,Sunday,11,1,52,15
+McDonald's,Sunday,10,1,44,8
+Burger King,Tuesday,19,0,100,39
+Subway,Wednesday,12,0,82,29
+Domino's,Thursday,9,0,38,6
+Domino's,Wednesday,13,0,88,34
+Subway,Thursday,14,0,69,14
+KFC,Monday,19,0,84,23
+KFC,Sunday,22,1,23,0
+KFC,Tuesday,20,0,88,39
+McDonald's,Sunday,15,1,37,8
+Burger King,Wednesday,16,0,34,9
+KFC,Wednesday,11,0,38,11
+Burger King,Monday,11,0,55,16
+Domino's,Wednesday,16,0,24,1
+Domino's,Monday,20,0,100,30
+McDonald's,Wednesday,9,0,18,2
+Domino's,Sunday,17,1,64,20
+Burger King,Sunday,21,1,100,34
+McDonald's,Tuesday,19,0,87,39
+Domino's,Saturday,18,1,93,43
+Pizza Hut,Sunday,10,1,48,8
+KFC,Sunday,20,1,100,30
+KFC,Monday,14,0,79,25
+Pizza Hut,Thursday,21,0,92,30
+KFC,Monday,11,0,31,8
+Pizza Hut,Saturday,9,1,32,8
+KFC,Tuesday,13,0,69,13
+Pizza Hut,Thursday,10,0,32,7
+Pizza Hut,Tuesday,12,0,63,19
+Domino's,Wednesday,18,0,73,29
+Domino's,Monday,9,0,30,5
+Domino's,Saturday,19,1,86,38
+KFC,Sunday,19,1,86,45
+KFC,Monday,20,0,76,22
+KFC,Monday,20,0,95,30
+Pizza Hut,Wednesday,17,0,18,5
+Domino's,Friday,11,0,34,5
+Subway,Saturday,21,1,80,23
+Subway,Tuesday,12,0,68,18
+Subway,Monday,18,0,93,45
+McDonald's,Monday,12,0,63,19
+Pizza Hut,Sunday,9,1,26,4
+Burger King,Wednesday,17,0,50,17
+McDonald's,Saturday,21,1,86,41
+McDonald's,Thursday,9,0,31,9
+Domino's,Tuesday,10,0,25,1
+Domino's,Wednesday,21,0,100,32
+Burger King,Friday,19,0,94,30
+KFC,Friday,12,0,71,23
+Pizza Hut,Saturday,15,1,30,10
+Subway,Thursday,11,0,21,5
+Pizza Hut,Saturday,22,1,30,11
+Burger King,Tuesday,21,0,89,42
+Burger King,Wednesday,15,0,33,8
+Burger King,Tuesday,16,0,24,5
+Domino's,Saturday,13,1,71,21
+Subway,Wednesday,11,0,38,11
+Pizza Hut,Tuesday,15,0,54,20
+Subway,Friday,12,0,66,16
+Domino's,Saturday,13,1,81,26
+KFC,Friday,20,0,71,30
+KFC,Saturday,10,1,60,17
+Burger King,Sunday,15,1,63,19
+McDonald's,Friday,11,0,23,1
+KFC,Monday,10,0,48,6
+KFC,Sunday,16,1,63,14
+Domino's,Saturday,21,1,100,36
+Burger King,Sunday,11,1,56,17
+KFC,Monday,22,0,11,4
+Domino's,Friday,20,0,74,23
+Burger King,Tuesday,10,0,48,9
+Burger King,Monday,21,0,83,30
+Pizza Hut,Tuesday,22,0,32,9
+Pizza Hut,Sunday,16,1,52,16
+KFC,Wednesday,18,0,90,33
+Subway,Monday,20,0,73,27
+Pizza Hut,Thursday,9,0,20,0
+Burger King,Thursday,19,0,81,24
+Domino's,Friday,17,0,38,9
+Domino's,Tuesday,18,0,95,36
+McDonald's,Monday,22,0,35,6
+Domino's,Tuesday,18,0,80,22
+Burger King,Wednesday,14,0,90,34
+Burger King,Friday,18,0,94,39
+Domino's,Thursday,18,0,85,44
+Pizza Hut,Tuesday,22,0,52,20
+Burger King,Monday,22,0,51,13
+Burger King,Saturday,18,1,86,39
+Domino's,Monday,13,0,75,27
+KFC,Saturday,19,1,93,41
+KFC,Tuesday,20,0,71,22
+Burger King,Wednesday,18,0,73,29
+Domino's,Saturday,19,1,100,45
+Pizza Hut,Tuesday,12,0,62,18
+Burger King,Saturday,18,1,90,31
+KFC,Wednesday,14,0,61,17
+Burger King,Monday,16,0,34,6
+McDonald's,Thursday,13,0,64,18
+McDonald's,Thursday,15,0,36,10
+KFC,Monday,20,0,95,37
+Subway,Friday,11,0,40,9
+Pizza Hut,Saturday,13,1,70,20
+Burger King,Friday,15,0,27,1
+KFC,Saturday,14,1,76,27
+Subway,Saturday,14,1,89,39
+Subway,Friday,9,0,56,13
+KFC,Sunday,20,1,94,44
+KFC,Tuesday,19,0,78,25
+Subway,Friday,10,0,57,20
+McDonald's,Monday,13,0,70,26
+McDonald's,Thursday,14,0,75,29
+Subway,Monday,17,0,48,9
+Pizza Hut,Wednesday,20,0,85,41
+Domino's,Sunday,13,1,69,17
+Domino's,Wednesday,15,0,42,11
+Subway,Monday,14,0,75,28
+Subway,Wednesday,22,0,60,20
+McDonald's,Friday,10,0,40,10
+Domino's,Thursday,19,0,73,26
+KFC,Wednesday,10,0,16,0
+McDonald's,Friday,14,0,83,29
+McDonald's,Monday,19,0,78,29
+Subway,Sunday,15,1,43,9
+Subway,Saturday,14,1,82,30
+Burger King,Sunday,22,1,51,12
+Subway,Saturday,21,1,96,43
+Pizza Hut,Saturday,16,1,30,11
+Subway,Monday,13,0,69,19
+KFC,Friday,16,0,13,5
+KFC,Friday,14,0,70,21
+Pizza Hut,Sunday,15,1,39,5
+Subway,Wednesday,22,0,53,12
+Burger King,Monday,12,0,81,30
+Burger King,Saturday,14,1,90,43
+Subway,Monday,13,0,75,24
+Subway,Monday,17,0,56,19
+Burger King,Sunday,22,1,28,3
+Burger King,Tuesday,10,0,44,7
+McDonald's,Tuesday,9,0,56,20
+Burger King,Saturday,13,1,68,16
+Domino's,Monday,11,0,51,18
+Burger King,Monday,15,0,34,12
+Pizza Hut,Tuesday,9,0,55,18
+KFC,Friday,10,0,11,2
+KFC,Sunday,10,1,26,1
+Domino's,Friday,11,0,37,6
+Burger King,Friday,12,0,80,24
+Pizza Hut,Saturday,16,1,43,6
+Domino's,Thursday,15,0,54,18
+Domino's,Sunday,18,1,85,42
+Domino's,Monday,16,0,21,5
+Burger King,Monday,14,0,86,33
+Domino's,Tuesday,22,0,10,5
+Subway,Sunday,10,1,45,5
+Burger King,Wednesday,18,0,99,31
+Burger King,Tuesday,11,0,22,0
+Burger King,Monday,21,0,71,22
+KFC,Monday,21,0,77,22
+McDonald's,Saturday,19,1,88,32
+Pizza Hut,Wednesday,16,0,19,4
+McDonald's,Wednesday,9,0,23,0
+Subway,Wednesday,15,0,36,12
+Burger King,Saturday,19,1,100,41
+Pizza Hut,Friday,9,0,44,9
+Pizza Hut,Sunday,9,1,26,4
+McDonald's,Monday,19,0,78,23
+Domino's,Saturday,19,1,76,27
+KFC,Thursday,13,0,82,21
+McDonald's,Saturday,18,1,85,45
+McDonald's,Friday,9,0,54,18
+KFC,Friday,21,0,82,24
+McDonald's,Wednesday,19,0,83,27
+Domino's,Wednesday,20,0,90,35
+Domino's,Sunday,14,1,76,26
+Subway,Tuesday,18,0,71,25
+Burger King,Wednesday,10,0,43,6
+McDonald's,Tuesday,11,0,54,15
+KFC,Monday,22,0,53,16
+Domino's,Thursday,15,0,53,13
+Pizza Hut,Saturday,17,1,60,15
+KFC,Saturday,9,1,65,17
+KFC,Wednesday,19,0,99,41
+Subway,Friday,12,0,70,23
+KFC,Tuesday,21,0,75,23
+Subway,Wednesday,22,0,50,12
+McDonald's,Sunday,9,1,60,12
+Domino's,Thursday,10,0,44,6
+McDonald's,Tuesday,18,0,95,37
+KFC,Thursday,19,0,88,36
+KFC,Friday,21,0,89,44
+Domino's,Sunday,14,1,89,45
+Domino's,Thursday,16,0,15,5
+Pizza Hut,Thursday,20,0,86,38
+McDonald's,Sunday,16,1,52,15
+Subway,Sunday,10,1,41,11
+Subway,Sunday,21,1,100,45
+Subway,Monday,15,0,37,9
+KFC,Thursday,16,0,53,13
+McDonald's,Saturday,9,1,65,13
+Pizza Hut,Friday,16,0,48,12
+Domino's,Wednesday,16,0,30,12
+Domino's,Sunday,19,1,96,31
+KFC,Wednesday,20,0,87,31
+KFC,Monday,14,0,83,20
+Subway,Monday,11,0,16,0
+Domino's,Tuesday,13,0,86,33
+Pizza Hut,Monday,11,0,20,2
+Pizza Hut,Friday,21,0,97,34
+KFC,Sunday,11,1,62,17
+Burger King,Sunday,18,1,94,31
+McDonald's,Thursday,16,0,29,4
+McDonald's,Wednesday,15,0,56,19
+McDonald's,Sunday,19,1,80,30
+Domino's,Saturday,18,1,96,32
+Pizza Hut,Friday,11,0,11,5
+Burger King,Thursday,12,0,63,20
+KFC,Saturday,19,1,100,35
+Domino's,Monday,21,0,72,21
+Burger King,Sunday,12,1,71,20
+McDonald's,Friday,13,0,62,15
+McDonald's,Wednesday,16,0,18,4
+Domino's,Tuesday,10,0,60,19
+Subway,Sunday,15,1,67,19
+Subway,Thursday,12,0,65,18
+Domino's,Thursday,18,0,85,45
+McDonald's,Wednesday,20,0,89,45
+Pizza Hut,Monday,14,0,72,28
+McDonald's,Friday,13,0,68,20
+Subway,Tuesday,9,0,52,17
+Domino's,Wednesday,10,0,26,2
+Pizza Hut,Tuesday,21,0,80,22
+Subway,Friday,16,0,58,13
+Domino's,Sunday,16,1,17,2
+McDonald's,Wednesday,20,0,96,43
+Domino's,Monday,20,0,86,42
+Subway,Saturday,9,1,65,17
+Burger King,Tuesday,16,0,47,12
+Pizza Hut,Sunday,12,1,68,13
+Burger King,Tuesday,9,0,47,5
+Burger King,Thursday,9,0,55,20
+Subway,Wednesday,11,0,38,11
+Domino's,Saturday,9,1,49,10
+Domino's,Friday,14,0,60,16
+Domino's,Wednesday,18,0,79,29
+Pizza Hut,Tuesday,17,0,29,1
+Pizza Hut,Wednesday,14,0,77,21
+Domino's,Friday,11,0,42,5
+Domino's,Wednesday,20,0,100,45
+McDonald's,Wednesday,18,0,92,45
+Burger King,Wednesday,10,0,50,15
+Pizza Hut,Sunday,10,1,59,12
+Pizza Hut,Saturday,12,1,96,31
+Subway,Wednesday,11,0,47,10
+KFC,Friday,20,0,87,40
+Pizza Hut,Thursday,22,0,37,5
+KFC,Friday,10,0,45,8
+Subway,Monday,20,0,81,27
+Domino's,Monday,10,0,25,0
+Burger King,Sunday,11,1,67,13
+KFC,Tuesday,19,0,79,24
+KFC,Tuesday,11,0,17,4
+Subway,Wednesday,16,0,56,13
+Pizza Hut,Thursday,20,0,88,37
+Pizza Hut,Monday,18,0,87,30
+Subway,Monday,12,0,72,29
+Pizza Hut,Sunday,19,1,100,39
+Subway,Tuesday,12,0,61,20
+KFC,Sunday,14,1,94,39
+Subway,Saturday,15,1,30,10
+Pizza Hut,Sunday,15,1,67,18
+Burger King,Thursday,9,0,37,9
+Domino's,Tuesday,22,0,59,16
+Subway,Sunday,11,1,52,17
+Domino's,Saturday,16,1,39,7
+KFC,Saturday,15,1,26,0
+Burger King,Tuesday,10,0,21,1
+McDonald's,Wednesday,17,0,13,0
+Subway,Sunday,13,1,77,25
+Burger King,Saturday,16,1,71,28
+McDonald's,Monday,22,0,14,1
+KFC,Thursday,16,0,31,5
+McDonald's,Thursday,11,0,24,2
+Domino's,Tuesday,13,0,71,23
+Burger King,Friday,9,0,50,18
+Domino's,Thursday,12,0,61,13
+Burger King,Wednesday,13,0,81,27
+McDonald's,Friday,18,0,80,25
+Subway,Thursday,10,0,22,1
+KFC,Wednesday,19,0,83,27
+McDonald's,Friday,21,0,83,30
+McDonald's,Sunday,20,1,100,38
+Domino's,Monday,15,0,55,14
+Subway,Tuesday,9,0,52,19
+Domino's,Monday,15,0,43,10
+Domino's,Thursday,22,0,49,10
+Pizza Hut,Thursday,18,0,82,22
+KFC,Wednesday,13,0,61,14
+McDonald's,Monday,19,0,87,31
+KFC,Sunday,18,1,100,41
+Pizza Hut,Thursday,18,0,77,26
+KFC,Friday,15,0,17,5
+McDonald's,Sunday,18,1,90,32
+Domino's,Saturday,14,1,100,38
+Pizza Hut,Tuesday,15,0,19,0
+Burger King,Thursday,9,0,47,9
+Domino's,Sunday,21,1,85,33
+Pizza Hut,Thursday,18,0,87,33
+Subway,Friday,20,0,70,30
+Domino's,Sunday,9,1,48,8
+Subway,Friday,20,0,98,33
+KFC,Sunday,16,1,60,18
+Pizza Hut,Monday,19,0,99,42
+Pizza Hut,Saturday,15,1,30,5
+Burger King,Thursday,12,0,63,13
+KFC,Saturday,20,1,86,36
+Burger King,Monday,12,0,76,22
+McDonald's,Monday,21,0,77,26
+Pizza Hut,Saturday,11,1,54,18
+Subway,Thursday,21,0,83,30
+Domino's,Sunday,17,1,60,17
+KFC,Wednesday,9,0,32,11
+Pizza Hut,Friday,11,0,18,3
+Burger King,Sunday,10,1,55,17
+Burger King,Friday,14,0,89,31
+Subway,Thursday,15,0,30,5
+Pizza Hut,Monday,21,0,96,45
+Subway,Saturday,12,1,99,43
+Burger King,Sunday,16,1,64,12
+McDonald's,Thursday,18,0,82,21
+McDonald's,Monday,10,0,10,3
+McDonald's,Tuesday,13,0,88,45
+McDonald's,Tuesday,14,0,88,39
+Subway,Sunday,9,1,71,20
+Burger King,Saturday,15,1,60,13
+KFC,Sunday,15,1,68,12
+Burger King,Wednesday,17,0,47,9
+Subway,Monday,19,0,72,22
+Domino's,Saturday,20,1,76,24
+Subway,Tuesday,16,0,15,0
+Domino's,Saturday,12,1,72,24
+KFC,Wednesday,11,0,49,11
+Pizza Hut,Friday,16,0,38,12
+KFC,Wednesday,9,0,35,7
+KFC,Sunday,10,1,27,4
+Burger King,Tuesday,17,0,36,8
+Burger King,Saturday,10,1,62,18
+KFC,Tuesday,20,0,75,26
+Subway,Friday,20,0,96,33
+Domino's,Saturday,22,1,57,17
+Pizza Hut,Tuesday,9,0,11,2
+Pizza Hut,Sunday,19,1,97,38
+Burger King,Thursday,10,0,38,5
+Pizza Hut,Thursday,22,0,18,5
+KFC,Sunday,11,1,60,20
+Domino's,Sunday,16,1,54,12
+Domino's,Friday,12,0,71,22
+Subway,Tuesday,15,0,42,5
+Burger King,Tuesday,17,0,10,3
+KFC,Thursday,14,0,63,17
+Subway,Tuesday,12,0,78,27
+McDonald's,Wednesday,18,0,79,22
+Pizza Hut,Tuesday,12,0,87,38
+Subway,Saturday,14,1,69,18
+Pizza Hut,Saturday,17,1,27,1
+Subway,Wednesday,22,0,59,16
+Burger King,Monday,20,0,73,26
+Pizza Hut,Saturday,18,1,80,25
+Burger King,Wednesday,10,0,39,7
+Subway,Thursday,10,0,45,6
+KFC,Tuesday,17,0,26,5
+McDonald's,Tuesday,22,0,35,11
+Domino's,Sunday,15,1,73,30
+Subway,Wednesday,16,0,59,14
+McDonald's,Sunday,9,1,22,2
+Burger King,Monday,15,0,13,1
+McDonald's,Sunday,11,1,67,12
+Domino's,Friday,9,0,58,18
+Subway,Saturday,15,1,43,5
+Domino's,Monday,9,0,42,6
+KFC,Friday,15,0,44,10
+McDonald's,Tuesday,11,0,13,4
+Pizza Hut,Tuesday,14,0,60,20
+Burger King,Thursday,10,0,46,6
+Pizza Hut,Wednesday,10,0,37,7
+Domino's,Sunday,14,1,75,29
+Subway,Wednesday,13,0,73,27
+KFC,Tuesday,14,0,87,33
+KFC,Friday,20,0,93,36
+KFC,Sunday,22,1,68,18
+Burger King,Thursday,14,0,69,20
+KFC,Thursday,17,0,26,4
+Domino's,Sunday,12,1,100,30
+Domino's,Wednesday,17,0,10,5
+Subway,Saturday,13,1,79,27
+Pizza Hut,Saturday,21,1,86,36
+Subway,Monday,9,0,21,3
+Pizza Hut,Thursday,22,0,10,5
+Burger King,Monday,12,0,90,42
+Burger King,Saturday,12,1,82,28
+Domino's,Thursday,18,0,80,25
+McDonald's,Monday,14,0,89,45
+McDonald's,Tuesday,17,0,18,4
+Pizza Hut,Sunday,19,1,100,36
+Burger King,Tuesday,9,0,38,10
+Pizza Hut,Friday,18,0,74,24
+Domino's,Wednesday,19,0,97,39
+Domino's,Friday,11,0,31,9
+Subway,Sunday,13,1,73,23
+McDonald's,Thursday,10,0,57,17
+Burger King,Tuesday,13,0,68,15
+KFC,Saturday,19,1,80,28
+Subway,Tuesday,10,0,30,10
+Subway,Friday,11,0,60,16
+Subway,Tuesday,16,0,56,17
+Burger King,Wednesday,20,0,72,28
+Burger King,Wednesday,14,0,67,13
+Domino's,Saturday,15,1,43,11
+KFC,Tuesday,13,0,77,25
+McDonald's,Monday,22,0,55,19
+Burger King,Sunday,12,1,69,18
+Burger King,Sunday,16,1,46,12
+Burger King,Monday,20,0,80,27
+McDonald's,Tuesday,15,0,52,20
+Subway,Sunday,18,1,100,35
+Domino's,Sunday,16,1,48,10
+Pizza Hut,Thursday,13,0,84,20
+Burger King,Tuesday,14,0,85,32
+Domino's,Sunday,20,1,83,20
+Domino's,Friday,20,0,88,39
+Domino's,Monday,10,0,60,15
+Pizza Hut,Sunday,9,1,49,7
+McDonald's,Wednesday,10,0,52,15
+KFC,Wednesday,14,0,88,44
+Subway,Saturday,16,1,46,6
+KFC,Sunday,9,1,55,18
+Burger King,Tuesday,21,0,72,25
+Domino's,Saturday,19,1,81,21
+Domino's,Wednesday,10,0,36,10
+McDonald's,Sunday,12,1,96,42
+McDonald's,Thursday,19,0,81,27
+Burger King,Tuesday,16,0,55,14
+Pizza Hut,Saturday,22,1,27,1
+McDonald's,Monday,17,0,19,1
+Subway,Friday,21,0,73,25
+Burger King,Sunday,15,1,31,9
+Burger King,Wednesday,9,0,10,3
+KFC,Friday,9,0,53,15
+Burger King,Monday,20,0,87,43
+KFC,Tuesday,14,0,77,21
+Pizza Hut,Wednesday,21,0,74,26
+Pizza Hut,Thursday,18,0,74,28
+Subway,Tuesday,17,0,58,20
+Pizza Hut,Thursday,19,0,86,34
+McDonald's,Saturday,13,1,71,27
+Domino's,Thursday,9,0,27,1
+Domino's,Thursday,10,0,26,5
+Pizza Hut,Wednesday,19,0,81,27
+Burger King,Saturday,16,1,53,14
+Subway,Tuesday,15,0,12,0
+KFC,Sunday,16,1,33,6
+McDonald's,Tuesday,22,0,20,4
+Domino's,Monday,9,0,55,19
+Pizza Hut,Sunday,9,1,40,5
+Subway,Tuesday,18,0,99,37
+Burger King,Tuesday,18,0,81,30
+Domino's,Wednesday,16,0,26,2
+Burger King,Monday,9,0,10,4
+McDonald's,Thursday,16,0,44,10
+Subway,Monday,21,0,81,27
+Subway,Saturday,19,1,95,30
+KFC,Wednesday,20,0,81,24
+McDonald's,Friday,15,0,42,9
+Domino's,Wednesday,17,0,53,20
+McDonald's,Thursday,18,0,84,25
+Pizza Hut,Wednesday,18,0,87,34
+Pizza Hut,Wednesday,15,0,27,4
+Domino's,Saturday,11,1,49,9
+Subway,Friday,22,0,49,8
+KFC,Saturday,14,1,73,29
+Burger King,Wednesday,18,0,90,43
+Domino's,Friday,13,0,77,23
+Domino's,Wednesday,15,0,14,0
+KFC,Friday,16,0,57,14
+McDonald's,Monday,18,0,80,28
+KFC,Wednesday,9,0,26,2
+Pizza Hut,Sunday,21,1,100,43
+Pizza Hut,Sunday,12,1,80,21
+Pizza Hut,Friday,11,0,10,3
+McDonald's,Saturday,12,1,72,26
+KFC,Wednesday,9,0,19,2
+Pizza Hut,Saturday,21,1,100,39
+KFC,Saturday,21,1,80,22
+Burger King,Monday,11,0,49,7
+KFC,Friday,12,0,64,13
+Pizza Hut,Sunday,16,1,29,2
+Pizza Hut,Saturday,11,1,27,3
+Pizza Hut,Friday,20,0,75,22
+Burger King,Sunday,11,1,26,0
+KFC,Wednesday,14,0,64,15
+Burger King,Tuesday,14,0,72,24
+Pizza Hut,Thursday,17,0,37,11
+Burger King,Thursday,15,0,37,7
+Burger King,Sunday,22,1,61,16
+Burger King,Tuesday,20,0,79,22
+Pizza Hut,Friday,11,0,23,3
+Burger King,Friday,13,0,60,14
+KFC,Thursday,22,0,54,20
+KFC,Monday,22,0,55,16
+Domino's,Friday,14,0,79,20
+Burger King,Saturday,22,1,68,16
+KFC,Tuesday,16,0,41,9
+Domino's,Sunday,15,1,61,18
+McDonald's,Wednesday,20,0,73,25
+Burger King,Wednesday,11,0,54,16
+Subway,Thursday,18,0,87,42
+Pizza Hut,Tuesday,14,0,76,30
+Burger King,Wednesday,17,0,22,2
+KFC,Thursday,15,0,34,6
+Burger King,Tuesday,21,0,96,44
+McDonald's,Sunday,14,1,98,37
+McDonald's,Saturday,19,1,84,24
+McDonald's,Thursday,14,0,66,13
+McDonald's,Friday,22,0,15,0
+Pizza Hut,Sunday,19,1,91,40
+McDonald's,Monday,11,0,53,13
+McDonald's,Tuesday,11,0,12,1
+Burger King,Monday,9,0,17,2
+Subway,Sunday,11,1,41,11
+KFC,Thursday,11,0,19,0
+KFC,Tuesday,17,0,48,5
+Domino's,Tuesday,19,0,99,32
+McDonald's,Thursday,11,0,60,13
+McDonald's,Monday,15,0,41,6
+McDonald's,Thursday,9,0,54,13
+KFC,Friday,16,0,40,10
+KFC,Saturday,14,1,86,36
+Pizza Hut,Thursday,9,0,12,0
+Domino's,Saturday,11,1,73,25
+Subway,Saturday,14,1,74,29
+Burger King,Thursday,16,0,23,5
+Subway,Wednesday,20,0,79,24
+Subway,Wednesday,21,0,72,28
+Burger King,Monday,9,0,52,12
+Subway,Friday,17,0,22,1
+Domino's,Friday,11,0,22,2
+Subway,Thursday,15,0,22,4
+Domino's,Wednesday,17,0,48,12
+Subway,Monday,22,0,39,11
+Domino's,Saturday,11,1,18,4
+Burger King,Monday,17,0,39,6
+KFC,Sunday,20,1,100,31
+Burger King,Thursday,9,0,58,15
+Subway,Tuesday,9,0,30,8
+Subway,Friday,20,0,78,26
+Subway,Tuesday,13,0,63,14
+Domino's,Sunday,11,1,63,19
+KFC,Friday,17,0,22,5
+Subway,Sunday,11,1,29,0
+KFC,Sunday,18,1,87,45
+KFC,Saturday,17,1,29,2
+Pizza Hut,Sunday,13,1,95,42
+Domino's,Monday,19,0,72,28
+McDonald's,Sunday,10,1,63,13
+Domino's,Friday,9,0,26,0
+Domino's,Sunday,12,1,83,29
+Pizza Hut,Sunday,15,1,63,17
+Subway,Sunday,18,1,100,36
+Burger King,Tuesday,15,0,40,10
+Domino's,Wednesday,15,0,43,10
+KFC,Saturday,17,1,43,10
+Domino's,Thursday,14,0,69,17
+Domino's,Sunday,18,1,100,32
+KFC,Thursday,22,0,11,5
+Domino's,Saturday,13,1,85,33
+Burger King,Friday,12,0,79,27
+Subway,Friday,13,0,68,17
+KFC,Monday,20,0,86,36
+Pizza Hut,Tuesday,15,0,34,11
+Subway,Thursday,12,0,63,18
+Domino's,Wednesday,21,0,76,27
+Subway,Tuesday,14,0,77,26
+Subway,Saturday,13,1,84,20
+Domino's,Sunday,15,1,41,9
+Pizza Hut,Saturday,13,1,89,42
+Burger King,Monday,22,0,53,16
+Burger King,Sunday,17,1,20,2
+Burger King,Thursday,11,0,58,15
+Subway,Wednesday,18,0,94,35
+Burger King,Sunday,19,1,100,45
+Pizza Hut,Thursday,13,0,61,20
+Domino's,Sunday,15,1,33,12
+Pizza Hut,Monday,22,0,29,3
+Domino's,Saturday,18,1,100,32
+Domino's,Friday,9,0,56,15
+Domino's,Tuesday,13,0,62,14
+Subway,Tuesday,19,0,76,29
+McDonald's,Thursday,18,0,84,27
+McDonald's,Tuesday,9,0,41,8
+Pizza Hut,Saturday,12,1,83,29
+McDonald's,Sunday,17,1,34,6
+KFC,Friday,11,0,51,15
+Pizza Hut,Saturday,13,1,71,20
+Domino's,Tuesday,9,0,48,7
+Subway,Saturday,9,1,33,12
+Domino's,Sunday,10,1,44,12
+McDonald's,Friday,14,0,75,25
+Burger King,Friday,13,0,70,24
+KFC,Tuesday,12,0,78,29
+Burger King,Monday,21,0,85,43
+Burger King,Monday,19,0,90,36
+McDonald's,Saturday,11,1,29,5
+Burger King,Saturday,18,1,98,44
+KFC,Monday,15,0,12,3
+Pizza Hut,Sunday,19,1,100,31
+KFC,Saturday,21,1,100,43
+Domino's,Friday,16,0,14,3
+Subway,Thursday,10,0,45,6
+McDonald's,Thursday,13,0,90,40
+Subway,Saturday,15,1,20,2
+Burger King,Tuesday,11,0,34,12
+Burger King,Sunday,18,1,94,42
+Subway,Monday,9,0,29,4
+Pizza Hut,Sunday,20,1,100,38
+KFC,Wednesday,12,0,77,20
+Subway,Monday,17,0,57,20
+McDonald's,Thursday,22,0,33,8
+Burger King,Sunday,11,1,21,1
+Pizza Hut,Monday,14,0,60,19
+Pizza Hut,Wednesday,13,0,85,30
+McDonald's,Wednesday,10,0,38,9
+Subway,Friday,9,0,23,5
+Pizza Hut,Sunday,19,1,100,30
+KFC,Saturday,18,1,83,30
+McDonald's,Wednesday,10,0,35,8
+Pizza Hut,Tuesday,15,0,32,12
+Subway,Thursday,15,0,37,9
+KFC,Saturday,16,1,28,3
+Burger King,Sunday,18,1,83,20
+Domino's,Tuesday,11,0,10,1
+McDonald's,Thursday,9,0,57,20
+KFC,Monday,18,0,87,45
+KFC,Tuesday,12,0,62,13
+KFC,Sunday,19,1,100,44
+KFC,Monday,15,0,31,10
+Subway,Tuesday,12,0,76,27
+Domino's,Wednesday,14,0,80,27
+Pizza Hut,Tuesday,18,0,100,30
+Pizza Hut,Tuesday,16,0,53,18
+Pizza Hut,Saturday,9,1,53,13
+Subway,Monday,17,0,18,2
+Pizza Hut,Monday,17,0,29,4
+McDonald's,Thursday,16,0,33,8
+Burger King,Wednesday,17,0,59,20
+Subway,Saturday,11,1,47,6
+Domino's,Tuesday,20,0,100,44
+KFC,Wednesday,11,0,12,0
+Subway,Monday,20,0,89,42
+McDonald's,Monday,20,0,94,37
+Subway,Tuesday,13,0,72,22
+Pizza Hut,Wednesday,14,0,85,38
+Domino's,Saturday,16,1,36,8
+KFC,Thursday,13,0,88,35
+McDonald's,Monday,22,0,26,0
+Subway,Sunday,14,1,66,12
+McDonald's,Friday,18,0,99,33
+McDonald's,Sunday,10,1,34,6
+Pizza Hut,Saturday,18,1,94,39
+Burger King,Wednesday,9,0,45,8
+Domino's,Monday,9,0,40,11
+Domino's,Friday,17,0,55,19
+Pizza Hut,Friday,11,0,14,3
+McDonald's,Thursday,9,0,41,7
+Domino's,Tuesday,18,0,73,29
+Pizza Hut,Friday,22,0,39,12
+Subway,Friday,18,0,89,30
+KFC,Sunday,9,1,57,16
+McDonald's,Thursday,10,0,59,20
+Domino's,Wednesday,19,0,71,25
+Subway,Thursday,11,0,13,3
+McDonald's,Wednesday,10,0,30,11
+McDonald's,Thursday,10,0,38,8
+Subway,Saturday,19,1,77,28
+McDonald's,Tuesday,21,0,77,29
+Domino's,Monday,20,0,92,43
+McDonald's,Friday,14,0,63,20
+Pizza Hut,Friday,12,0,90,31
+KFC,Sunday,16,1,19,3
+McDonald's,Sunday,18,1,100,35
+Subway,Friday,9,0,36,10
+Domino's,Thursday,21,0,94,35
+KFC,Monday,13,0,69,19
+Subway,Friday,12,0,71,20
+KFC,Wednesday,11,0,44,9
+Pizza Hut,Monday,20,0,94,45
+McDonald's,Saturday,9,1,29,2
+McDonald's,Wednesday,15,0,48,9
+Subway,Tuesday,16,0,26,1
+Burger King,Wednesday,15,0,24,5
+KFC,Saturday,22,1,34,10
+McDonald's,Tuesday,20,0,95,40
+Domino's,Sunday,20,1,78,29
+McDonald's,Friday,21,0,84,22
+KFC,Saturday,16,1,22,3
+McDonald's,Monday,9,0,52,17
+Domino's,Sunday,20,1,88,39
+KFC,Sunday,16,1,45,9
+Pizza Hut,Monday,18,0,92,43
+Subway,Thursday,13,0,84,21
+Domino's,Tuesday,17,0,43,11
+McDonald's,Sunday,10,1,62,16
+Domino's,Friday,14,0,69,15
+Subway,Saturday,15,1,34,9
+Burger King,Wednesday,9,0,53,18
+Domino's,Friday,22,0,54,16
+McDonald's,Thursday,18,0,100,45
+Burger King,Saturday,11,1,28,2
+Subway,Wednesday,14,0,64,19
+McDonald's,Wednesday,15,0,42,7
+Pizza Hut,Monday,12,0,66,12
+KFC,Tuesday,12,0,67,13
+Pizza Hut,Wednesday,20,0,78,23
+KFC,Sunday,11,1,65,17
+Burger King,Sunday,22,1,64,13
+McDonald's,Monday,17,0,17,5
+Subway,Friday,14,0,78,20
+KFC,Saturday,16,1,51,16
+Burger King,Sunday,12,1,79,24
+Domino's,Tuesday,15,0,20,5
+McDonald's,Friday,10,0,41,8
+KFC,Friday,16,0,45,11
+KFC,Saturday,11,1,54,17
+Burger King,Thursday,17,0,42,10
+Pizza Hut,Monday,19,0,74,24
+Domino's,Wednesday,18,0,84,28
+Subway,Tuesday,21,0,94,42
+Subway,Wednesday,21,0,77,23
+Pizza Hut,Thursday,12,0,67,12
+Subway,Monday,21,0,79,29
+Pizza Hut,Thursday,18,0,88,43
+Pizza Hut,Sunday,20,1,100,43
+Domino's,Thursday,12,0,68,17
+McDonald's,Wednesday,10,0,36,7
+Subway,Friday,9,0,16,4
+McDonald's,Friday,13,0,86,45
+McDonald's,Monday,20,0,70,24
+Pizza Hut,Wednesday,10,0,45,5
+Domino's,Wednesday,11,0,26,0
+KFC,Friday,17,0,34,7
+Subway,Monday,11,0,12,3
+Burger King,Friday,9,0,24,2
+Pizza Hut,Wednesday,9,0,30,9
+McDonald's,Wednesday,19,0,82,27
+Pizza Hut,Monday,13,0,72,23
+Pizza Hut,Wednesday,11,0,19,0
+Domino's,Wednesday,15,0,31,10
+KFC,Thursday,9,0,51,13
+Subway,Wednesday,12,0,82,24
+Subway,Saturday,22,1,63,19
+Subway,Friday,18,0,94,34
+KFC,Tuesday,18,0,72,20
+Pizza Hut,Thursday,15,0,28,1
+McDonald's,Thursday,20,0,76,23
+KFC,Sunday,18,1,100,38
+KFC,Tuesday,18,0,98,35
+Pizza Hut,Thursday,18,0,94,31
+Domino's,Tuesday,22,0,42,7
+Burger King,Tuesday,9,0,60,13
+Subway,Friday,11,0,56,18
+KFC,Monday,20,0,74,25
+Subway,Thursday,19,0,88,37
+Domino's,Sunday,10,1,15,2
+Domino's,Monday,17,0,11,5
+KFC,Monday,11,0,31,12
+Burger King,Monday,19,0,84,28
+KFC,Tuesday,14,0,67,20
+Pizza Hut,Wednesday,11,0,53,12
+McDonald's,Sunday,15,1,25,5
+KFC,Tuesday,12,0,78,26
+McDonald's,Thursday,12,0,90,45
+KFC,Friday,18,0,84,30
+McDonald's,Saturday,10,1,59,13
+Domino's,Saturday,9,1,56,19
+Burger King,Wednesday,12,0,69,18
+McDonald's,Sunday,18,1,100,35
+Pizza Hut,Friday,14,0,70,24
+McDonald's,Monday,10,0,50,15
+KFC,Sunday,12,1,92,41
+Pizza Hut,Saturday,22,1,23,0
+KFC,Sunday,9,1,63,12
+Subway,Monday,15,0,58,15
+McDonald's,Thursday,22,0,28,1
+Subway,Friday,22,0,45,10
+Domino's,Thursday,16,0,14,4
+Burger King,Monday,12,0,78,21
+Pizza Hut,Tuesday,19,0,71,29
+Subway,Thursday,18,0,85,38
+Burger King,Thursday,10,0,13,1
+Subway,Wednesday,11,0,23,5
+McDonald's,Wednesday,17,0,11,1
+Subway,Thursday,21,0,87,31
+KFC,Wednesday,17,0,48,9
+McDonald's,Friday,22,0,30,5
+McDonald's,Wednesday,17,0,55,19
+Domino's,Thursday,9,0,32,6
+McDonald's,Tuesday,17,0,11,1
+Subway,Friday,15,0,41,9
+Pizza Hut,Tuesday,17,0,19,1
+KFC,Sunday,14,1,95,44
+Domino's,Wednesday,9,0,49,5
+Domino's,Monday,11,0,23,2
+Burger King,Friday,21,0,89,42
+McDonald's,Sunday,22,1,74,23
+Subway,Saturday,19,1,100,32
+Burger King,Sunday,19,1,86,43
+Domino's,Saturday,9,1,39,5
+KFC,Wednesday,14,0,72,25
+Domino's,Saturday,14,1,97,43
+Subway,Sunday,9,1,39,8
+KFC,Tuesday,21,0,81,27
+Burger King,Friday,15,0,56,13
+Pizza Hut,Saturday,13,1,86,43
+KFC,Monday,13,0,73,24
+KFC,Saturday,20,1,82,26
+Domino's,Saturday,22,1,44,5
+Burger King,Thursday,19,0,74,27
+Pizza Hut,Tuesday,22,0,18,0
+Subway,Monday,18,0,76,25
+Subway,Thursday,13,0,64,15
+Pizza Hut,Sunday,15,1,51,17
+McDonald's,Sunday,20,1,100,37
+KFC,Tuesday,21,0,88,32
+McDonald's,Saturday,17,1,44,10
+KFC,Monday,20,0,93,36
+McDonald's,Sunday,17,1,60,14
+Pizza Hut,Sunday,13,1,99,37
+Subway,Saturday,11,1,72,24
+Subway,Thursday,21,0,99,36
+Subway,Monday,12,0,73,22
+Pizza Hut,Monday,15,0,58,19
+McDonald's,Saturday,11,1,40,11
+Burger King,Saturday,12,1,91,33
+KFC,Saturday,12,1,90,37
+Burger King,Monday,18,0,74,28
+KFC,Wednesday,12,0,66,15
+KFC,Saturday,22,1,31,10
+Pizza Hut,Wednesday,20,0,87,45
+Pizza Hut,Monday,10,0,38,8
+Burger King,Saturday,9,1,25,3
+Subway,Friday,13,0,82,29
+McDonald's,Thursday,16,0,15,4
+Domino's,Monday,21,0,96,33
+KFC,Friday,9,0,34,9
+KFC,Wednesday,9,0,42,6
+Pizza Hut,Sunday,21,1,100,35
+Burger King,Wednesday,15,0,32,8
+KFC,Tuesday,22,0,28,1
+KFC,Wednesday,18,0,95,30
+Burger King,Thursday,22,0,48,7
+Subway,Saturday,11,1,42,10
+Domino's,Thursday,10,0,10,0
+KFC,Thursday,17,0,44,6
+Subway,Sunday,17,1,19,3
+Burger King,Thursday,21,0,87,42
+Burger King,Monday,11,0,12,4
+KFC,Sunday,22,1,38,8
+Subway,Thursday,22,0,44,11
+Domino's,Wednesday,15,0,28,4
+Burger King,Thursday,9,0,57,17
+Pizza Hut,Tuesday,15,0,26,1
+Subway,Monday,10,0,47,5
+McDonald's,Saturday,17,1,61,16
+Burger King,Sunday,22,1,41,8
+KFC,Sunday,14,1,90,35
+Domino's,Saturday,19,1,100,43
+McDonald's,Wednesday,20,0,91,37
+Subway,Wednesday,13,0,87,39
+Burger King,Wednesday,11,0,49,12
+KFC,Thursday,14,0,84,30
+Domino's,Wednesday,13,0,64,20
+Domino's,Sunday,14,1,78,24
+Domino's,Saturday,20,1,91,40
+KFC,Sunday,19,1,92,42
+Subway,Thursday,16,0,31,6
+Pizza Hut,Monday,17,0,42,6
+Domino's,Tuesday,12,0,68,20
+Subway,Monday,20,0,80,29
+Burger King,Friday,17,0,44,9
+Pizza Hut,Monday,19,0,83,22
+McDonald's,Sunday,12,1,93,43
+Pizza Hut,Monday,10,0,48,9
+KFC,Wednesday,13,0,63,16
+KFC,Sunday,22,1,51,20
+Burger King,Tuesday,13,0,74,23
+KFC,Friday,17,0,16,5
+KFC,Tuesday,14,0,68,13
+KFC,Friday,12,0,75,28
+Burger King,Friday,14,0,78,21
+Burger King,Monday,21,0,70,25
+KFC,Monday,12,0,84,25
+Domino's,Wednesday,12,0,62,20
+Pizza Hut,Sunday,19,1,100,44
+Pizza Hut,Saturday,10,1,26,0
+Pizza Hut,Friday,22,0,18,1
+Domino's,Tuesday,13,0,69,12
+McDonald's,Thursday,17,0,34,5
+Burger King,Wednesday,18,0,88,45
+Subway,Tuesday,12,0,83,22
+Subway,Thursday,16,0,10,3
+Pizza Hut,Wednesday,11,0,29,4
+Domino's,Monday,11,0,53,15
+McDonald's,Tuesday,15,0,43,5
+McDonald's,Wednesday,20,0,100,44
+KFC,Monday,15,0,25,2
+Subway,Monday,12,0,84,22
+KFC,Friday,14,0,76,30
+Subway,Saturday,17,1,60,14
+McDonald's,Wednesday,9,0,53,20
+McDonald's,Saturday,13,1,72,20
+Burger King,Tuesday,11,0,37,8
+KFC,Friday,17,0,31,5
+KFC,Sunday,20,1,100,38
+Subway,Thursday,16,0,12,2
+McDonald's,Wednesday,14,0,63,13
+McDonald's,Thursday,22,0,48,10
+Pizza Hut,Friday,13,0,60,14
+Burger King,Sunday,16,1,26,3
+McDonald's,Monday,17,0,31,9
+Burger King,Saturday,10,1,43,11
+Pizza Hut,Saturday,20,1,96,32
+McDonald's,Friday,16,0,60,19
+Burger King,Wednesday,13,0,70,21
+KFC,Friday,9,0,46,5
+Pizza Hut,Thursday,21,0,73,20
+KFC,Wednesday,15,0,15,0
+KFC,Tuesday,12,0,88,36
+Pizza Hut,Wednesday,21,0,96,45
+Domino's,Wednesday,12,0,82,27
+Domino's,Wednesday,17,0,21,5
+Pizza Hut,Friday,18,0,75,22
+McDonald's,Thursday,10,0,56,12
+KFC,Monday,17,0,18,5
+Pizza Hut,Monday,14,0,83,22
+Subway,Friday,21,0,76,23
+KFC,Sunday,14,1,87,42
+Domino's,Saturday,18,1,99,33
+Domino's,Friday,20,0,78,20
+KFC,Monday,16,0,42,7
+Subway,Friday,16,0,11,0
+Subway,Monday,19,0,83,25
+KFC,Monday,15,0,44,10
+Burger King,Sunday,9,1,31,5
+KFC,Saturday,12,1,98,35
+KFC,Thursday,9,0,13,5
+McDonald's,Wednesday,15,0,26,0
+Burger King,Tuesday,20,0,71,23
+McDonald's,Tuesday,16,0,31,10
+KFC,Sunday,12,1,100,42
+Domino's,Wednesday,14,0,75,24
+Burger King,Wednesday,20,0,93,37
+Domino's,Saturday,19,1,100,34
+McDonald's,Friday,10,0,25,2
+Burger King,Friday,11,0,18,5
+Pizza Hut,Sunday,17,1,43,11
+Subway,Tuesday,18,0,90,42
+Burger King,Wednesday,22,0,29,1
+Domino's,Wednesday,14,0,70,28
+KFC,Sunday,20,1,80,20
+Burger King,Thursday,11,0,30,7
+McDonald's,Thursday,12,0,64,19
+Pizza Hut,Sunday,18,1,89,39
+McDonald's,Saturday,17,1,45,7
+KFC,Tuesday,20,0,92,37
+Burger King,Sunday,13,1,76,20
+McDonald's,Thursday,12,0,69,15
+Subway,Sunday,9,1,21,3
+McDonald's,Thursday,9,0,33,8
+Subway,Wednesday,20,0,73,25
+Domino's,Saturday,21,1,100,30
+Domino's,Monday,11,0,60,12
+Burger King,Thursday,20,0,77,20
+Subway,Sunday,14,1,85,45
+Subway,Saturday,21,1,98,32
+Burger King,Thursday,21,0,97,41
+McDonald's,Friday,9,0,33,9
+KFC,Wednesday,14,0,82,23
+Burger King,Thursday,12,0,90,34
+Domino's,Thursday,16,0,19,2
+Domino's,Sunday,19,1,100,33
+Subway,Wednesday,11,0,43,11
+Burger King,Tuesday,17,0,18,0
+McDonald's,Saturday,17,1,65,19
+Burger King,Tuesday,12,0,63,19
+Pizza Hut,Wednesday,18,0,96,45
+Subway,Wednesday,13,0,68,12
+Domino's,Wednesday,11,0,60,19
+Domino's,Friday,18,0,80,23
+KFC,Monday,20,0,96,40
+KFC,Saturday,11,1,70,23
+Burger King,Tuesday,11,0,52,20
+KFC,Wednesday,9,0,24,2
+Pizza Hut,Tuesday,16,0,42,5
+Subway,Monday,21,0,92,44
+McDonald's,Tuesday,9,0,19,2
+KFC,Saturday,12,1,77,25
+KFC,Tuesday,19,0,85,37
+KFC,Saturday,10,1,55,20
+Pizza Hut,Sunday,18,1,93,40
+Burger King,Monday,10,0,55,16
+Domino's,Friday,13,0,81,25
+Pizza Hut,Thursday,17,0,11,3
+Pizza Hut,Sunday,17,1,23,4
+Domino's,Tuesday,16,0,34,12
+Subway,Tuesday,17,0,55,12
+Subway,Monday,13,0,74,25
+McDonald's,Friday,12,0,79,27
+Subway,Saturday,21,1,100,42
+Subway,Thursday,14,0,66,20
+KFC,Friday,12,0,83,28
+KFC,Tuesday,10,0,53,19
+KFC,Sunday,13,1,78,26
+Pizza Hut,Friday,15,0,22,1
+Pizza Hut,Wednesday,17,0,46,8
+KFC,Tuesday,12,0,72,28
+Burger King,Thursday,9,0,26,1
+Pizza Hut,Wednesday,19,0,76,28
+Domino's,Monday,9,0,56,15
+Burger King,Saturday,12,1,91,40
+Subway,Tuesday,16,0,26,5
+Domino's,Sunday,21,1,78,25
+McDonald's,Thursday,9,0,32,5
+Pizza Hut,Thursday,12,0,70,25
+Domino's,Tuesday,18,0,74,28
+Subway,Monday,16,0,38,8
+KFC,Wednesday,22,0,22,1
+Burger King,Wednesday,17,0,11,3
+McDonald's,Saturday,17,1,48,8
+Burger King,Thursday,17,0,22,4
+Pizza Hut,Thursday,22,0,30,11
+Burger King,Tuesday,13,0,84,22
+Pizza Hut,Sunday,22,1,61,17
+McDonald's,Monday,9,0,56,20
+KFC,Sunday,15,1,26,1
+Pizza Hut,Monday,16,0,14,5
+KFC,Friday,16,0,57,13
+Pizza Hut,Monday,16,0,26,4
+Burger King,Thursday,18,0,80,28
+Burger King,Monday,18,0,84,22
+McDonald's,Tuesday,21,0,89,44
+McDonald's,Friday,21,0,100,35
+Subway,Thursday,16,0,48,10
+Domino's,Wednesday,10,0,49,8
+Pizza Hut,Monday,19,0,72,24
+Burger King,Friday,10,0,16,5
+McDonald's,Wednesday,9,0,31,5
+Subway,Sunday,9,1,75,27
+Pizza Hut,Wednesday,13,0,88,42
+McDonald's,Thursday,18,0,93,32
+Subway,Sunday,10,1,44,7
+Pizza Hut,Wednesday,13,0,90,31
+KFC,Thursday,11,0,13,1
+Subway,Wednesday,9,0,13,1
+McDonald's,Sunday,14,1,92,39
+Pizza Hut,Tuesday,18,0,93,31
+Pizza Hut,Monday,20,0,98,40
+Pizza Hut,Sunday,13,1,100,34
+Subway,Friday,17,0,24,1
+KFC,Wednesday,11,0,49,10
+Domino's,Friday,14,0,78,23
+KFC,Saturday,11,1,35,5
+Domino's,Tuesday,12,0,83,21
+KFC,Sunday,17,1,42,9
+Subway,Friday,9,0,27,0
+McDonald's,Sunday,22,1,50,17
+Burger King,Friday,9,0,18,4
+McDonald's,Friday,19,0,77,23
+KFC,Monday,10,0,37,7
+Subway,Tuesday,13,0,86,34
+Burger King,Sunday,22,1,35,6
+Subway,Monday,17,0,13,0
+KFC,Sunday,10,1,42,7
+Subway,Wednesday,12,0,68,20
+Subway,Sunday,12,1,83,20
+KFC,Sunday,11,1,31,8
+Pizza Hut,Sunday,20,1,89,35
+KFC,Thursday,19,0,88,36
+Domino's,Tuesday,15,0,37,8
+McDonald's,Friday,22,0,30,11
+KFC,Friday,19,0,71,29
+Subway,Sunday,19,1,99,35
+Domino's,Wednesday,14,0,81,25
+Domino's,Monday,17,0,30,7
+Domino's,Friday,22,0,29,2
+McDonald's,Saturday,12,1,78,28
+Domino's,Tuesday,17,0,34,6
+KFC,Friday,15,0,40,6
+Subway,Saturday,19,1,87,40
+Subway,Sunday,16,1,50,15
+Pizza Hut,Wednesday,10,0,32,8
+KFC,Tuesday,12,0,84,26
+McDonald's,Saturday,21,1,83,25
+Burger King,Friday,14,0,79,24
+McDonald's,Monday,18,0,73,28
+KFC,Thursday,15,0,57,15
+Domino's,Sunday,12,1,79,30
+McDonald's,Thursday,18,0,79,20
+Burger King,Monday,9,0,14,4
+Domino's,Sunday,9,1,64,20
+Burger King,Friday,18,0,76,26
+Burger King,Monday,20,0,81,23
+McDonald's,Sunday,19,1,100,43
+Pizza Hut,Saturday,12,1,92,31
+McDonald's,Monday,15,0,43,10
+Domino's,Friday,19,0,81,28
+Subway,Friday,15,0,22,5
+KFC,Thursday,13,0,80,22
+Subway,Saturday,10,1,51,12
+Pizza Hut,Sunday,21,1,100,30
+Burger King,Friday,22,0,25,5
+McDonald's,Tuesday,18,0,93,41
+McDonald's,Friday,15,0,30,6
+McDonald's,Monday,14,0,78,20
+Domino's,Sunday,20,1,87,42
+Domino's,Monday,10,0,24,2
+KFC,Saturday,18,1,100,37
+KFC,Tuesday,10,0,28,3
+Pizza Hut,Monday,10,0,37,9
+Subway,Tuesday,11,0,10,4
+Subway,Tuesday,19,0,96,43
+McDonald's,Friday,19,0,83,20
+McDonald's,Friday,15,0,16,2
+Burger King,Thursday,19,0,76,20
+McDonald's,Tuesday,13,0,68,17
+Domino's,Tuesday,14,0,65,15
+McDonald's,Monday,17,0,33,11
+KFC,Saturday,14,1,95,43
+KFC,Tuesday,16,0,20,4
+Pizza Hut,Monday,22,0,39,5
+McDonald's,Thursday,11,0,18,1
+McDonald's,Tuesday,9,0,21,0
+KFC,Tuesday,21,0,77,30
+KFC,Thursday,12,0,71,22
+Pizza Hut,Thursday,21,0,73,20
+Burger King,Saturday,13,1,92,35
+Burger King,Tuesday,17,0,12,4
+Pizza Hut,Sunday,10,1,51,14
+KFC,Friday,21,0,86,34
+Burger King,Friday,12,0,80,21
+Domino's,Thursday,14,0,62,12
+Domino's,Tuesday,17,0,10,5
+Domino's,Sunday,18,1,100,42
+McDonald's,Thursday,9,0,13,3
+Pizza Hut,Monday,21,0,77,23
+Pizza Hut,Saturday,20,1,100,42
+McDonald's,Saturday,14,1,94,39
+Pizza Hut,Wednesday,9,0,14,4
+Pizza Hut,Wednesday,10,0,47,8
+KFC,Monday,9,0,33,7
+KFC,Thursday,22,0,35,8
+McDonald's,Monday,19,0,100,31
+McDonald's,Thursday,10,0,14,1
+Burger King,Thursday,10,0,50,14
+Domino's,Thursday,20,0,82,26
+Subway,Saturday,10,1,70,30
+McDonald's,Saturday,19,1,93,38
+Burger King,Thursday,22,0,10,2
+KFC,Wednesday,11,0,27,4
+McDonald's,Sunday,17,1,49,6
+Burger King,Tuesday,15,0,57,15
+Domino's,Saturday,18,1,100,31
+Pizza Hut,Friday,15,0,29,4
+KFC,Saturday,15,1,28,5
+Domino's,Friday,17,0,35,6
+Pizza Hut,Monday,22,0,51,14
+Domino's,Monday,20,0,92,30
+Burger King,Wednesday,12,0,66,12
+McDonald's,Wednesday,20,0,83,22
+Domino's,Saturday,17,1,51,15
+Subway,Wednesday,13,0,89,45
+Burger King,Monday,12,0,80,24
+Pizza Hut,Sunday,10,1,36,6
+Subway,Sunday,16,1,28,5
+KFC,Thursday,20,0,97,38
+KFC,Tuesday,19,0,99,30
+Burger King,Monday,17,0,16,1
+McDonald's,Friday,16,0,51,15
+Burger King,Sunday,11,1,57,13
+Subway,Friday,9,0,33,5
+Subway,Saturday,14,1,71,27
+Pizza Hut,Monday,12,0,78,26
+KFC,Friday,22,0,27,5
+Domino's,Monday,22,0,33,10
+Subway,Monday,16,0,41,6
+McDonald's,Friday,13,0,66,15
+KFC,Sunday,15,1,25,0
+McDonald's,Thursday,9,0,34,8
+Subway,Friday,12,0,66,15
+Burger King,Thursday,12,0,73,21
+Domino's,Thursday,9,0,55,15
+Burger King,Wednesday,12,0,76,30
+Subway,Friday,13,0,64,13
+McDonald's,Wednesday,16,0,17,5
+Domino's,Wednesday,22,0,51,19
+Domino's,Sunday,19,1,85,40
+McDonald's,Thursday,10,0,47,11
+McDonald's,Wednesday,16,0,47,9
+Burger King,Sunday,16,1,47,10
+McDonald's,Tuesday,18,0,76,29
+Subway,Wednesday,18,0,99,35
+Pizza Hut,Friday,19,0,77,22
+KFC,Saturday,18,1,93,43
+McDonald's,Sunday,20,1,82,28
+Subway,Wednesday,17,0,30,7
+Domino's,Tuesday,21,0,87,38
+KFC,Saturday,9,1,35,11
+Subway,Wednesday,16,0,44,8
+Burger King,Thursday,15,0,37,12
+Subway,Friday,12,0,78,29
+Domino's,Monday,19,0,90,42
+Subway,Wednesday,19,0,83,29
+Burger King,Wednesday,19,0,78,27
+Domino's,Sunday,15,1,38,11
+Domino's,Thursday,18,0,78,21
+Burger King,Tuesday,10,0,10,3
+Domino's,Sunday,11,1,45,12
+Subway,Wednesday,20,0,90,33
+Burger King,Saturday,19,1,100,30
+Burger King,Sunday,10,1,37,9
+Burger King,Saturday,13,1,75,22
+Burger King,Monday,18,0,71,21
+Burger King,Saturday,10,1,56,12
+Subway,Friday,12,0,61,15
+Pizza Hut,Tuesday,10,0,11,5
+Pizza Hut,Monday,10,0,39,9
+Subway,Wednesday,10,0,28,3
+Burger King,Sunday,15,1,24,5
+KFC,Sunday,17,1,47,11
+McDonald's,Saturday,11,1,32,6
+Domino's,Thursday,14,0,75,27
+Domino's,Thursday,13,0,66,12
+McDonald's,Wednesday,21,0,74,25
+McDonald's,Wednesday,14,0,70,25
+McDonald's,Wednesday,19,0,76,29
+Domino's,Saturday,20,1,89,40
+Burger King,Monday,9,0,14,0
+Pizza Hut,Sunday,14,1,94,30
+Subway,Thursday,11,0,52,17
+Domino's,Friday,14,0,69,12
+Burger King,Saturday,21,1,93,30
+Domino's,Wednesday,14,0,75,21
+McDonald's,Monday,16,0,47,11
+Subway,Saturday,22,1,61,19
+Burger King,Friday,11,0,44,8
+Burger King,Wednesday,9,0,41,9
+Burger King,Sunday,11,1,54,12
+McDonald's,Saturday,21,1,87,44
+Subway,Sunday,20,1,97,37
+McDonald's,Saturday,10,1,57,20
+KFC,Tuesday,9,0,60,17
+McDonald's,Saturday,14,1,69,13
+McDonald's,Tuesday,22,0,53,18
+Burger King,Sunday,11,1,68,17
+KFC,Saturday,11,1,32,5
+Domino's,Wednesday,18,0,75,25
+Burger King,Wednesday,11,0,55,16
+KFC,Thursday,18,0,99,45
+KFC,Monday,11,0,49,10
+Pizza Hut,Thursday,21,0,91,40
+Burger King,Thursday,9,0,55,13
+Burger King,Thursday,12,0,86,36
+Pizza Hut,Thursday,14,0,84,23
+Subway,Wednesday,15,0,36,10
+Subway,Monday,20,0,94,39
+Burger King,Monday,22,0,23,2
+KFC,Sunday,16,1,28,0
+KFC,Monday,12,0,66,12
+Pizza Hut,Sunday,22,1,58,20
+Burger King,Friday,13,0,61,20
+Domino's,Sunday,14,1,89,39
+McDonald's,Monday,11,0,12,3
+McDonald's,Wednesday,16,0,32,8
+Subway,Friday,17,0,29,1
+Pizza Hut,Saturday,9,1,22,4
+KFC,Saturday,14,1,75,22
+Subway,Tuesday,17,0,39,11
+McDonald's,Friday,10,0,22,0
+Domino's,Tuesday,11,0,59,17
+KFC,Friday,19,0,88,40
+McDonald's,Saturday,9,1,42,9
+Subway,Wednesday,9,0,16,1
+KFC,Monday,15,0,36,12
+Domino's,Wednesday,19,0,84,27
+Burger King,Friday,22,0,33,11
+Burger King,Wednesday,16,0,60,18
+KFC,Thursday,12,0,71,27
+Subway,Wednesday,18,0,99,35
+Pizza Hut,Thursday,10,0,25,2
+Subway,Tuesday,12,0,88,30
+KFC,Sunday,22,1,29,4
+Pizza Hut,Friday,13,0,66,19
+Burger King,Saturday,9,1,71,22
+Domino's,Tuesday,22,0,15,1
+Burger King,Friday,13,0,84,29
+KFC,Wednesday,19,0,89,31
+McDonald's,Friday,11,0,52,16
+Subway,Thursday,18,0,91,45
+Domino's,Tuesday,14,0,84,30
+Pizza Hut,Monday,13,0,63,17
+Domino's,Saturday,20,1,100,32
+McDonald's,Monday,11,0,36,7
+Pizza Hut,Tuesday,10,0,21,0
+Domino's,Saturday,17,1,42,5
+Domino's,Tuesday,11,0,27,3
+Subway,Wednesday,20,0,85,44
+Burger King,Sunday,11,1,41,5
+Subway,Friday,22,0,15,3
+KFC,Friday,14,0,70,28
+Pizza Hut,Friday,11,0,34,5
+KFC,Wednesday,9,0,22,0
+McDonald's,Monday,16,0,38,9
+Burger King,Tuesday,9,0,55,14
+McDonald's,Saturday,18,1,100,40
+KFC,Monday,20,0,77,21
+KFC,Sunday,9,1,61,13
+McDonald's,Tuesday,18,0,81,25
+Burger King,Tuesday,20,0,81,27
+Burger King,Thursday,15,0,32,12
+McDonald's,Friday,21,0,99,44
+Subway,Monday,19,0,86,32
+Subway,Monday,9,0,30,6
+McDonald's,Saturday,18,1,100,37
+Subway,Thursday,9,0,40,9
+Domino's,Tuesday,12,0,65,19
+Domino's,Tuesday,17,0,17,3
+Pizza Hut,Wednesday,13,0,88,31
+Burger King,Friday,17,0,33,5
+KFC,Wednesday,13,0,88,39
+Burger King,Tuesday,21,0,93,40
+Domino's,Monday,12,0,83,20
+McDonald's,Sunday,9,1,21,2
+Pizza Hut,Monday,15,0,13,0
+McDonald's,Friday,22,0,23,3
+Subway,Monday,21,0,85,43
+Burger King,Sunday,9,1,60,15
+Burger King,Saturday,10,1,33,7
+McDonald's,Monday,12,0,82,27
+Burger King,Monday,22,0,48,9
+Domino's,Thursday,11,0,40,8
+Burger King,Saturday,14,1,100,43
+Domino's,Wednesday,15,0,23,5
+McDonald's,Sunday,19,1,100,37
+Pizza Hut,Wednesday,17,0,55,20
+Subway,Wednesday,12,0,85,44
+Burger King,Thursday,20,0,88,41
+Burger King,Sunday,11,1,53,19
+Domino's,Tuesday,21,0,93,40
+McDonald's,Wednesday,20,0,81,21
+KFC,Tuesday,13,0,65,20
+Burger King,Sunday,12,1,99,35
+Pizza Hut,Thursday,14,0,86,33
+KFC,Saturday,22,1,54,13
+KFC,Friday,15,0,47,12
+Domino's,Saturday,9,1,16,3
+Domino's,Wednesday,19,0,81,28
+Burger King,Tuesday,9,0,46,8
+Pizza Hut,Tuesday,12,0,89,36
+Burger King,Saturday,21,1,83,30
+Burger King,Tuesday,12,0,83,25
+KFC,Wednesday,9,0,12,3
+Burger King,Thursday,11,0,36,12
+Domino's,Saturday,11,1,65,13
+McDonald's,Saturday,20,1,78,23
+Pizza Hut,Tuesday,9,0,10,5
+McDonald's,Friday,11,0,46,10
+Subway,Sunday,10,1,36,11
+McDonald's,Friday,12,0,60,14
+Domino's,Wednesday,15,0,54,13
+Subway,Friday,11,0,16,0
+KFC,Sunday,14,1,88,37
+Domino's,Friday,9,0,49,11
+KFC,Wednesday,13,0,75,30
+McDonald's,Wednesday,22,0,36,11
+Pizza Hut,Sunday,18,1,90,41
+KFC,Tuesday,17,0,36,10
+Burger King,Friday,17,0,18,3
+Domino's,Thursday,13,0,60,19
+KFC,Saturday,15,1,19,4
+Burger King,Monday,12,0,61,18
+Domino's,Saturday,20,1,100,38
+Pizza Hut,Wednesday,22,0,12,1
+Pizza Hut,Monday,9,0,49,12
+Domino's,Saturday,19,1,88,42
+KFC,Sunday,16,1,36,11
+Subway,Saturday,22,1,17,5
+KFC,Thursday,16,0,36,8
+Pizza Hut,Saturday,11,1,25,4
+Pizza Hut,Monday,19,0,100,38
+Domino's,Thursday,20,0,82,25
+Burger King,Tuesday,11,0,41,5
+McDonald's,Friday,9,0,13,5
+KFC,Thursday,12,0,87,33
+KFC,Monday,22,0,52,17
+Pizza Hut,Friday,12,0,78,25
+Burger King,Saturday,15,1,74,23
+Pizza Hut,Monday,9,0,52,15
+KFC,Tuesday,22,0,31,6
+Subway,Thursday,22,0,48,6
+Subway,Thursday,13,0,89,41
+KFC,Saturday,21,1,100,36
+Domino's,Thursday,22,0,14,1
+Subway,Sunday,19,1,86,31
+Pizza Hut,Wednesday,19,0,74,30
+Domino's,Tuesday,12,0,72,27
+McDonald's,Wednesday,17,0,45,5
+Domino's,Tuesday,10,0,50,18
+McDonald's,Tuesday,9,0,27,3
+McDonald's,Wednesday,14,0,68,13
+Domino's,Tuesday,18,0,94,39
+Subway,Thursday,14,0,67,12
+Domino's,Friday,15,0,39,9
+Burger King,Wednesday,16,0,32,12
+Pizza Hut,Monday,14,0,73,25
+Subway,Friday,19,0,94,39
+Burger King,Thursday,21,0,78,27
+KFC,Friday,20,0,91,39
+Pizza Hut,Wednesday,9,0,15,5
+Burger King,Wednesday,10,0,18,5
+McDonald's,Thursday,10,0,26,0
+KFC,Friday,16,0,30,12
+McDonald's,Monday,16,0,44,5
+KFC,Tuesday,15,0,52,14
+Burger King,Monday,9,0,35,6
+Subway,Wednesday,11,0,42,11
+Pizza Hut,Thursday,13,0,88,37
+Domino's,Thursday,10,0,51,19
+Domino's,Wednesday,13,0,80,20
+KFC,Saturday,11,1,46,10
+Subway,Monday,19,0,70,29
+McDonald's,Friday,14,0,71,28
+KFC,Tuesday,13,0,90,38
+Subway,Tuesday,16,0,52,17
+Burger King,Wednesday,10,0,13,3
+McDonald's,Wednesday,14,0,82,24
+Burger King,Thursday,20,0,91,34
+McDonald's,Wednesday,10,0,39,7
+Domino's,Sunday,20,1,92,39
+Burger King,Tuesday,17,0,49,9
+Domino's,Saturday,15,1,66,18
+Domino's,Tuesday,9,0,14,2
+McDonald's,Thursday,21,0,75,20
+Domino's,Monday,22,0,45,11
+Subway,Sunday,10,1,57,18
+KFC,Saturday,20,1,83,20
+Domino's,Thursday,22,0,60,15
+Burger King,Tuesday,18,0,94,34
+McDonald's,Friday,12,0,85,42
+Subway,Sunday,10,1,34,8
+McDonald's,Tuesday,12,0,78,21
+Domino's,Friday,16,0,43,12
+Subway,Thursday,14,0,81,27
+Subway,Sunday,17,1,30,6
+McDonald's,Friday,15,0,41,8
+Subway,Thursday,14,0,86,36
+Domino's,Thursday,20,0,100,45
+McDonald's,Sunday,17,1,53,17
+Subway,Saturday,10,1,39,11
+Burger King,Tuesday,15,0,57,12
+Subway,Monday,11,0,28,0
+KFC,Friday,22,0,37,5
+Pizza Hut,Friday,17,0,57,14
+McDonald's,Sunday,10,1,55,12
+Domino's,Saturday,11,1,64,20
+Burger King,Monday,20,0,94,42
+McDonald's,Friday,22,0,20,4
+Burger King,Tuesday,20,0,86,40
+Subway,Sunday,21,1,84,24
+Pizza Hut,Tuesday,17,0,17,1
+KFC,Friday,22,0,41,6
+Domino's,Saturday,20,1,97,39
+McDonald's,Saturday,19,1,100,36
+Subway,Monday,15,0,18,5
+Subway,Monday,12,0,68,20
+Burger King,Saturday,12,1,94,32
+Subway,Saturday,20,1,100,44
+Burger King,Sunday,16,1,67,17
+McDonald's,Friday,12,0,60,15
+Domino's,Sunday,13,1,100,35
+Subway,Wednesday,14,0,88,40
+Pizza Hut,Saturday,14,1,75,26
+Subway,Sunday,9,1,21,1
+KFC,Friday,16,0,59,12
+KFC,Friday,22,0,37,10
+Subway,Thursday,15,0,40,10
+Domino's,Tuesday,9,0,48,10
+Domino's,Friday,11,0,49,10
+McDonald's,Monday,13,0,90,43
+McDonald's,Saturday,22,1,28,0
+Subway,Saturday,12,1,88,37
+KFC,Friday,17,0,37,5
+Domino's,Tuesday,15,0,29,5
+McDonald's,Wednesday,15,0,56,16
+KFC,Monday,19,0,73,25
+McDonald's,Sunday,18,1,85,37
+KFC,Thursday,13,0,84,22
+Burger King,Thursday,9,0,40,12
+Domino's,Saturday,11,1,17,1
+Domino's,Tuesday,17,0,30,12
+Pizza Hut,Monday,22,0,58,17
+Domino's,Friday,12,0,83,26
+KFC,Monday,20,0,83,20
+Burger King,Wednesday,15,0,32,5
+Subway,Sunday,12,1,72,27
+Domino's,Tuesday,22,0,55,20
+Pizza Hut,Saturday,18,1,85,36
+Burger King,Saturday,19,1,88,45
+Subway,Saturday,13,1,100,33
+Domino's,Tuesday,20,0,81,25
+KFC,Sunday,22,1,44,11
+Domino's,Wednesday,15,0,23,1
+Burger King,Thursday,16,0,22,3
+Subway,Tuesday,22,0,39,10
+Burger King,Thursday,13,0,60,15
+Subway,Monday,20,0,92,36
+Burger King,Thursday,17,0,52,17
+Subway,Tuesday,18,0,88,41
+Subway,Wednesday,9,0,25,1
+Domino's,Saturday,20,1,95,40
+McDonald's,Tuesday,20,0,75,23
+Domino's,Monday,9,0,56,14
+Pizza Hut,Tuesday,14,0,65,16
+Subway,Friday,17,0,29,3
+KFC,Saturday,16,1,40,8
+McDonald's,Thursday,10,0,18,1
+Burger King,Sunday,22,1,37,12
+Pizza Hut,Thursday,14,0,63,16
+Pizza Hut,Monday,11,0,20,1
+McDonald's,Monday,10,0,22,1
+Subway,Tuesday,14,0,62,15
+Domino's,Friday,12,0,70,27
+Pizza Hut,Friday,13,0,86,33
+Subway,Friday,22,0,16,3
+Burger King,Saturday,10,1,58,16
+Pizza Hut,Friday,15,0,54,20
+Subway,Sunday,13,1,96,44
+Burger King,Saturday,9,1,56,18
+Burger King,Tuesday,21,0,84,21
+McDonald's,Wednesday,13,0,74,23
+KFC,Tuesday,16,0,58,18
+KFC,Monday,10,0,16,3
+KFC,Monday,13,0,90,34
+Burger King,Wednesday,20,0,98,44
+Pizza Hut,Friday,12,0,68,18
+McDonald's,Tuesday,22,0,11,1
+Burger King,Thursday,20,0,100,41
+Burger King,Friday,20,0,74,29
+Pizza Hut,Wednesday,22,0,41,11
+KFC,Thursday,12,0,67,17
+Burger King,Friday,10,0,44,7
+Domino's,Saturday,14,1,88,45
+McDonald's,Friday,10,0,27,3
+Subway,Wednesday,19,0,88,35
+KFC,Wednesday,9,0,39,11
+Burger King,Wednesday,17,0,22,2
+Subway,Sunday,19,1,100,34
+McDonald's,Sunday,9,1,38,12
+Pizza Hut,Tuesday,20,0,78,24
+Subway,Sunday,13,1,81,20
+Subway,Wednesday,17,0,12,1
+Burger King,Monday,18,0,85,36
+KFC,Thursday,16,0,15,2
+Burger King,Sunday,15,1,43,7
+Burger King,Monday,20,0,79,29
+KFC,Saturday,22,1,70,27
+Burger King,Thursday,14,0,73,27
+Subway,Thursday,16,0,16,2
+Subway,Monday,15,0,30,12
+Domino's,Sunday,16,1,56,16
+KFC,Saturday,19,1,100,39
+Domino's,Monday,18,0,85,41
+Domino's,Monday,15,0,46,6
+McDonald's,Wednesday,21,0,76,30
+Burger King,Saturday,12,1,100,45
+McDonald's,Tuesday,14,0,89,43
+Burger King,Saturday,17,1,68,18
+Domino's,Friday,13,0,64,19
+McDonald's,Tuesday,14,0,71,21
+Subway,Monday,12,0,67,14
+Burger King,Saturday,13,1,70,21
+Pizza Hut,Monday,11,0,48,7
+McDonald's,Saturday,19,1,100,39
+McDonald's,Friday,20,0,74,29
+Domino's,Friday,11,0,29,5
+KFC,Monday,15,0,37,11
+KFC,Monday,11,0,17,5
+Domino's,Tuesday,12,0,71,30
+McDonald's,Tuesday,19,0,90,38
+Pizza Hut,Thursday,11,0,33,8
+Domino's,Sunday,12,1,87,43
+McDonald's,Wednesday,12,0,60,13
+McDonald's,Sunday,22,1,67,15
+Subway,Thursday,15,0,41,9
+Pizza Hut,Thursday,9,0,57,19
+Domino's,Friday,22,0,32,9
+Pizza Hut,Monday,11,0,22,2
+Domino's,Monday,15,0,24,2
+Pizza Hut,Thursday,22,0,14,5
+Domino's,Monday,10,0,40,12
+Domino's,Monday,20,0,98,30
+KFC,Wednesday,21,0,96,32
+KFC,Monday,16,0,50,12
+Domino's,Thursday,12,0,75,30
+Subway,Tuesday,9,0,12,4
+Subway,Saturday,20,1,85,42
+Burger King,Tuesday,12,0,85,40
+Subway,Monday,15,0,13,3
+McDonald's,Wednesday,13,0,88,31
+McDonald's,Thursday,16,0,47,7
+Subway,Sunday,16,1,37,9
+KFC,Saturday,18,1,87,30
+Subway,Friday,11,0,14,5
+KFC,Sunday,11,1,22,2
+Pizza Hut,Sunday,21,1,84,28
+KFC,Monday,11,0,22,3
+KFC,Friday,19,0,84,20
+Subway,Monday,9,0,14,4
+McDonald's,Wednesday,19,0,97,34
+Burger King,Saturday,12,1,83,22
+Subway,Tuesday,18,0,81,23
+Pizza Hut,Saturday,17,1,37,6
+McDonald's,Wednesday,11,0,28,1
+McDonald's,Monday,9,0,13,2
+Pizza Hut,Saturday,15,1,61,16
+McDonald's,Sunday,14,1,82,20
+KFC,Thursday,10,0,33,5
+Subway,Sunday,20,1,97,30
+Domino's,Monday,22,0,58,18
+Subway,Friday,19,0,95,35
+McDonald's,Saturday,9,1,51,14
+Subway,Saturday,11,1,25,5
+Domino's,Wednesday,15,0,14,3
+Domino's,Monday,15,0,11,0
+Subway,Monday,19,0,100,35
+Burger King,Friday,12,0,87,30
+Subway,Thursday,21,0,92,34
+Subway,Monday,18,0,87,38
+Pizza Hut,Tuesday,9,0,17,5
+Burger King,Friday,16,0,32,9
+McDonald's,Thursday,21,0,78,27
+Domino's,Friday,15,0,39,9
+KFC,Sunday,15,1,64,16
+Burger King,Monday,22,0,54,13
+Pizza Hut,Monday,15,0,59,14
+Pizza Hut,Friday,18,0,100,41
+Subway,Monday,11,0,41,8
+KFC,Sunday,18,1,100,45
+Domino's,Thursday,14,0,88,35
+McDonald's,Monday,14,0,68,19
+Pizza Hut,Wednesday,20,0,89,34
+KFC,Wednesday,22,0,37,12
+Pizza Hut,Friday,17,0,58,14
+Domino's,Saturday,9,1,36,6
+Burger King,Tuesday,22,0,19,0
+Pizza Hut,Thursday,14,0,88,35
+KFC,Tuesday,17,0,25,4
+McDonald's,Friday,16,0,50,15
+Subway,Friday,22,0,47,10
+Pizza Hut,Wednesday,18,0,81,24
+KFC,Saturday,16,1,74,21
+Domino's,Friday,14,0,90,35
+KFC,Monday,11,0,33,7
+McDonald's,Monday,9,0,16,0
+Subway,Monday,12,0,64,12
+KFC,Monday,22,0,34,9
+Pizza Hut,Friday,10,0,48,8
+Subway,Friday,11,0,59,16
+Burger King,Saturday,16,1,30,10
+Pizza Hut,Wednesday,12,0,87,36
+Pizza Hut,Thursday,10,0,22,3
+Burger King,Saturday,9,1,66,16
+KFC,Thursday,12,0,64,17
+McDonald's,Tuesday,18,0,89,37
+KFC,Monday,11,0,55,18
+Domino's,Saturday,13,1,96,39
+Pizza Hut,Monday,12,0,79,26
+Domino's,Sunday,17,1,28,0
+Subway,Wednesday,20,0,88,45
+Burger King,Saturday,21,1,90,33
+KFC,Sunday,10,1,31,10
+Burger King,Friday,11,0,13,2
+McDonald's,Saturday,11,1,63,13
+McDonald's,Wednesday,10,0,34,5
+Subway,Monday,12,0,67,18
+KFC,Sunday,22,1,23,5
+Burger King,Friday,12,0,88,41
+Domino's,Tuesday,18,0,78,25
+McDonald's,Monday,21,0,94,45
+Burger King,Friday,21,0,86,44
+McDonald's,Saturday,19,1,94,38
+KFC,Friday,14,0,82,28
+Burger King,Thursday,20,0,92,38
+McDonald's,Wednesday,18,0,92,32
+Pizza Hut,Tuesday,15,0,38,6
+Burger King,Saturday,20,1,77,23
+Pizza Hut,Friday,15,0,60,13
+Burger King,Saturday,21,1,100,30
+Domino's,Tuesday,10,0,22,2
+Pizza Hut,Monday,22,0,20,1
+Domino's,Friday,21,0,91,39
+Burger King,Monday,22,0,26,1
+Burger King,Wednesday,12,0,71,20
+Domino's,Wednesday,15,0,17,0
+KFC,Friday,21,0,73,20
+Pizza Hut,Monday,13,0,80,27
+Pizza Hut,Wednesday,9,0,41,11
+Pizza Hut,Saturday,15,1,33,5
+Pizza Hut,Sunday,15,1,31,12
+Domino's,Wednesday,9,0,11,4
+Pizza Hut,Wednesday,11,0,11,0
+Subway,Tuesday,20,0,93,40
+Pizza Hut,Saturday,16,1,55,17
+Burger King,Thursday,14,0,68,20
+KFC,Monday,16,0,58,16
+Burger King,Monday,11,0,44,10
+McDonald's,Saturday,22,1,36,10
+KFC,Friday,14,0,87,30
+KFC,Sunday,13,1,83,29
+McDonald's,Saturday,16,1,55,20
+Pizza Hut,Friday,12,0,82,25
+Domino's,Thursday,15,0,41,9
+Subway,Friday,14,0,65,12
+McDonald's,Monday,11,0,36,6
+McDonald's,Friday,22,0,60,14
+KFC,Tuesday,11,0,37,10
+KFC,Friday,19,0,74,21
+KFC,Monday,19,0,73,29
+Burger King,Monday,18,0,92,36
+KFC,Saturday,13,1,93,37
+McDonald's,Monday,9,0,38,12
+Subway,Thursday,15,0,49,6
+KFC,Saturday,17,1,15,3
+KFC,Sunday,22,1,52,12
+Domino's,Friday,10,0,49,11
+Subway,Saturday,14,1,92,44
+KFC,Monday,11,0,60,20
+Burger King,Tuesday,10,0,28,5
+Subway,Tuesday,20,0,95,41
+Subway,Friday,12,0,79,28
+Domino's,Sunday,12,1,90,45
+Domino's,Thursday,14,0,80,27
+McDonald's,Thursday,15,0,31,8
+Pizza Hut,Wednesday,14,0,71,23
+Subway,Tuesday,21,0,92,37
+McDonald's,Friday,12,0,66,15
+Subway,Saturday,13,1,91,42
+Pizza Hut,Saturday,17,1,36,7
+Subway,Thursday,16,0,51,17
+Domino's,Sunday,18,1,100,44
+Burger King,Monday,22,0,27,4
+Pizza Hut,Saturday,15,1,18,5
+KFC,Thursday,11,0,21,5
+Domino's,Sunday,12,1,90,42
+Subway,Monday,20,0,84,25
+McDonald's,Monday,17,0,30,9
+McDonald's,Thursday,14,0,75,23
+KFC,Monday,15,0,31,9
+Burger King,Sunday,17,1,55,13
+KFC,Friday,11,0,25,5
+McDonald's,Saturday,19,1,97,34
+Domino's,Tuesday,14,0,64,20
+McDonald's,Sunday,12,1,92,32
+KFC,Friday,10,0,24,1
+Pizza Hut,Sunday,17,1,39,6
+Burger King,Thursday,13,0,69,14
+Pizza Hut,Sunday,18,1,83,25
+Subway,Thursday,10,0,42,8
+Subway,Thursday,11,0,60,19
+Burger King,Sunday,22,1,69,13
+Domino's,Tuesday,11,0,32,9
+McDonald's,Friday,13,0,73,28
+Domino's,Monday,20,0,79,26
+Domino's,Wednesday,12,0,70,20
+Subway,Saturday,15,1,67,15
+Subway,Sunday,10,1,67,20
+Burger King,Wednesday,11,0,24,0
+McDonald's,Thursday,13,0,73,23
+Subway,Monday,11,0,15,5
+McDonald's,Tuesday,15,0,23,4
+KFC,Wednesday,11,0,57,15
+Burger King,Friday,16,0,38,11
+Subway,Sunday,13,1,74,27
+McDonald's,Friday,17,0,60,17
+KFC,Friday,14,0,88,35
+Subway,Tuesday,15,0,15,2
+KFC,Thursday,17,0,15,0
+Domino's,Wednesday,15,0,20,1
+Subway,Wednesday,18,0,82,25
+Subway,Monday,16,0,36,8
+Domino's,Monday,17,0,24,1
+Subway,Tuesday,19,0,81,27
+McDonald's,Thursday,22,0,44,12
+Pizza Hut,Wednesday,11,0,29,1
+Burger King,Monday,17,0,30,7
+KFC,Saturday,21,1,100,40
+McDonald's,Sunday,19,1,92,33
+KFC,Sunday,14,1,94,41
+Domino's,Friday,21,0,84,29
+Burger King,Monday,18,0,82,20
+Domino's,Sunday,15,1,62,15
+McDonald's,Wednesday,12,0,68,14
+Pizza Hut,Friday,10,0,40,5
+Burger King,Friday,21,0,98,41
+Domino's,Thursday,19,0,95,44
+McDonald's,Sunday,17,1,68,19
+Burger King,Friday,17,0,15,2
+Pizza Hut,Monday,19,0,78,21
+KFC,Tuesday,20,0,82,28
+McDonald's,Monday,22,0,35,12
+Burger King,Tuesday,13,0,77,27
+KFC,Thursday,16,0,10,3
+McDonald's,Friday,11,0,24,4
+KFC,Monday,11,0,36,6
+Subway,Friday,9,0,32,11
+Pizza Hut,Thursday,9,0,30,6
+KFC,Saturday,17,1,48,10
+Domino's,Tuesday,14,0,80,21
+Pizza Hut,Saturday,13,1,73,29
+McDonald's,Friday,20,0,88,39
+Domino's,Tuesday,11,0,11,1
+Pizza Hut,Friday,12,0,81,23
+Burger King,Friday,15,0,34,11
+Domino's,Monday,11,0,37,6
+McDonald's,Friday,20,0,79,26
+Pizza Hut,Thursday,10,0,13,0
+Pizza Hut,Sunday,16,1,65,18
+Subway,Wednesday,20,0,94,35
+Pizza Hut,Monday,19,0,97,38
+Subway,Friday,17,0,32,12
+Subway,Sunday,22,1,52,15
+Burger King,Sunday,21,1,100,38
+Burger King,Tuesday,17,0,16,3
+Domino's,Saturday,22,1,36,10
+McDonald's,Thursday,10,0,33,8
+Burger King,Saturday,18,1,96,37
+Pizza Hut,Monday,12,0,89,31
+Subway,Tuesday,22,0,48,11
+Pizza Hut,Saturday,13,1,77,27
+Subway,Wednesday,13,0,90,40
+Subway,Tuesday,22,0,55,20
+McDonald's,Wednesday,19,0,84,28
+Subway,Wednesday,10,0,47,7
+Pizza Hut,Wednesday,16,0,51,14
+Domino's,Thursday,22,0,12,0
+KFC,Tuesday,12,0,61,17
+Domino's,Saturday,15,1,57,17
+Burger King,Sunday,9,1,62,18
+McDonald's,Friday,11,0,38,9
+Domino's,Thursday,15,0,55,17
+Domino's,Saturday,20,1,86,41
+Domino's,Wednesday,21,0,94,39
+Domino's,Sunday,14,1,93,38
+McDonald's,Saturday,14,1,84,26
+KFC,Thursday,21,0,76,21
+KFC,Sunday,13,1,76,22
+Pizza Hut,Sunday,20,1,100,34
+Domino's,Sunday,21,1,100,34
+Pizza Hut,Tuesday,11,0,37,8
+Burger King,Thursday,11,0,44,10
+KFC,Wednesday,13,0,66,16
+Burger King,Wednesday,14,0,83,20
+Domino's,Tuesday,19,0,77,23
+KFC,Thursday,18,0,96,34
+Burger King,Friday,11,0,49,6
+Domino's,Sunday,15,1,47,8
+Pizza Hut,Thursday,15,0,53,18
+Burger King,Tuesday,13,0,78,20
+Subway,Wednesday,20,0,100,31
+Domino's,Friday,22,0,28,4
+Pizza Hut,Wednesday,14,0,83,26
+Burger King,Monday,19,0,70,28
+Pizza Hut,Friday,10,0,32,7
+Subway,Wednesday,13,0,86,31
+Subway,Monday,9,0,29,0
+Domino's,Thursday,12,0,70,27
+Pizza Hut,Thursday,14,0,61,18
+KFC,Thursday,12,0,62,13
+Domino's,Sunday,15,1,49,11
+Domino's,Tuesday,15,0,17,0
+Domino's,Tuesday,22,0,26,2
+Pizza Hut,Friday,10,0,42,7
+Subway,Thursday,18,0,91,30
+Burger King,Wednesday,11,0,15,3
+Subway,Saturday,10,1,36,10
+KFC,Thursday,17,0,31,7
+KFC,Tuesday,18,0,82,20
+KFC,Monday,15,0,26,3
+KFC,Saturday,17,1,45,12
+KFC,Sunday,16,1,29,1
+Pizza Hut,Saturday,15,1,39,7
+Burger King,Thursday,22,0,42,6
+KFC,Friday,15,0,40,11
+Burger King,Sunday,16,1,19,2
+Pizza Hut,Friday,20,0,86,35
+McDonald's,Saturday,20,1,100,35
+KFC,Tuesday,15,0,53,20
+Pizza Hut,Friday,21,0,91,44
+Burger King,Thursday,16,0,21,4
+Domino's,Wednesday,13,0,73,23
+McDonald's,Monday,18,0,90,39
+Burger King,Thursday,18,0,100,38
+Subway,Wednesday,21,0,76,20
+KFC,Sunday,17,1,66,20
+Subway,Thursday,18,0,100,31
+Pizza Hut,Monday,19,0,100,34
+Subway,Friday,17,0,13,2
+Domino's,Monday,11,0,37,12
+KFC,Sunday,16,1,36,5
+Pizza Hut,Tuesday,16,0,49,5
+McDonald's,Thursday,22,0,56,19
+Pizza Hut,Sunday,15,1,47,12
+Domino's,Sunday,11,1,35,6
+Pizza Hut,Tuesday,9,0,34,5
+Burger King,Thursday,14,0,90,39
+KFC,Wednesday,15,0,17,4
+Pizza Hut,Tuesday,13,0,82,29
+KFC,Monday,14,0,68,16
+Subway,Wednesday,10,0,16,4
+Subway,Wednesday,15,0,24,1
+Pizza Hut,Tuesday,16,0,45,5
+McDonald's,Friday,20,0,92,39
+Domino's,Friday,14,0,84,24
+KFC,Sunday,13,1,94,40
+Pizza Hut,Sunday,17,1,52,16
+Pizza Hut,Wednesday,14,0,71,20
+McDonald's,Sunday,16,1,21,1
+Pizza Hut,Saturday,9,1,52,14
+Subway,Wednesday,16,0,47,11
+Domino's,Tuesday,11,0,52,14
+Domino's,Wednesday,21,0,81,22
+KFC,Saturday,20,1,85,43
+Pizza Hut,Wednesday,20,0,81,25
+Subway,Wednesday,22,0,10,2
+Burger King,Thursday,20,0,74,28
+Burger King,Wednesday,22,0,42,7
+Domino's,Monday,12,0,83,21
+KFC,Wednesday,10,0,41,9
+Burger King,Tuesday,12,0,74,30
+KFC,Tuesday,17,0,32,10
+Domino's,Tuesday,19,0,84,22
+Domino's,Tuesday,20,0,96,44
+Domino's,Tuesday,17,0,58,17
+Domino's,Sunday,18,1,100,33
+Pizza Hut,Saturday,9,1,52,17
+Domino's,Sunday,14,1,93,32
+Domino's,Monday,10,0,22,1
+McDonald's,Thursday,10,0,17,2
+Burger King,Sunday,12,1,74,21
+McDonald's,Wednesday,13,0,90,34
+Burger King,Tuesday,12,0,88,34
+Burger King,Friday,12,0,61,18
+Domino's,Tuesday,19,0,87,35
+KFC,Friday,18,0,81,27
+Burger King,Thursday,16,0,18,5
+Domino's,Wednesday,12,0,81,29
+Burger King,Tuesday,16,0,50,14
+Burger King,Monday,13,0,76,27
+KFC,Thursday,13,0,70,30
+Burger King,Friday,12,0,77,27
+KFC,Sunday,22,1,47,11
+KFC,Saturday,18,1,100,40
+Burger King,Thursday,14,0,61,13
+Subway,Thursday,9,0,33,6
+McDonald's,Wednesday,19,0,73,29
+McDonald's,Tuesday,10,0,43,8
+Subway,Friday,10,0,45,10
+Domino's,Thursday,20,0,86,44
+Pizza Hut,Wednesday,19,0,83,22
+Domino's,Sunday,14,1,90,41
+McDonald's,Saturday,15,1,55,17
+McDonald's,Thursday,20,0,80,30
+Subway,Thursday,18,0,88,39
+Burger King,Thursday,12,0,71,28
+KFC,Friday,21,0,95,40
+KFC,Tuesday,9,0,20,2
+Burger King,Friday,22,0,26,3
+Subway,Saturday,10,1,34,5
+Burger King,Monday,11,0,47,10
+Domino's,Saturday,13,1,89,37
+KFC,Thursday,14,0,74,30
+Domino's,Monday,16,0,32,12
+McDonald's,Sunday,22,1,55,17
+Domino's,Thursday,19,0,87,30
+Pizza Hut,Saturday,9,1,29,5
+Burger King,Monday,21,0,88,36
+Domino's,Friday,16,0,17,2
+Burger King,Sunday,19,1,100,35
+McDonald's,Tuesday,12,0,66,14
+Burger King,Tuesday,9,0,24,3
+Burger King,Tuesday,17,0,25,0
+McDonald's,Monday,19,0,75,27
+Subway,Monday,21,0,93,31
+Pizza Hut,Saturday,19,1,80,28
+KFC,Monday,11,0,24,4
+Subway,Thursday,19,0,97,44
+Subway,Thursday,18,0,80,23
+Domino's,Monday,10,0,50,20
+McDonald's,Tuesday,18,0,79,28
+KFC,Sunday,21,1,88,38
+KFC,Saturday,16,1,36,10
+Subway,Wednesday,9,0,38,8
+Pizza Hut,Tuesday,9,0,51,18
+KFC,Wednesday,10,0,35,8
+McDonald's,Wednesday,10,0,30,7
+Subway,Sunday,18,1,100,35
+KFC,Wednesday,22,0,30,10
+Domino's,Wednesday,22,0,26,2
+Burger King,Monday,13,0,71,26
+Pizza Hut,Friday,18,0,72,22
+Subway,Thursday,9,0,19,1
+KFC,Tuesday,14,0,79,21
+Domino's,Thursday,17,0,38,8
+McDonald's,Tuesday,9,0,24,0
+Subway,Wednesday,10,0,12,1
+Pizza Hut,Thursday,17,0,11,5
+Subway,Wednesday,21,0,99,33
+KFC,Monday,13,0,73,29
+Burger King,Sunday,20,1,93,34
+Subway,Tuesday,18,0,97,31
+McDonald's,Wednesday,12,0,88,34
+Burger King,Tuesday,20,0,87,37
+Burger King,Tuesday,21,0,75,23
+Subway,Monday,21,0,83,25
+Domino's,Thursday,15,0,57,18
+Subway,Friday,13,0,83,23
+Pizza Hut,Monday,10,0,23,5
+Burger King,Tuesday,10,0,52,19
+Burger King,Tuesday,10,0,19,2
+KFC,Thursday,16,0,33,11
+Pizza Hut,Monday,20,0,73,26
+McDonald's,Thursday,12,0,62,15
+Subway,Tuesday,18,0,94,33
+Burger King,Monday,9,0,42,7
+KFC,Thursday,18,0,100,39
+Subway,Saturday,17,1,40,11
+McDonald's,Sunday,20,1,100,45
+KFC,Monday,14,0,60,15
+KFC,Sunday,9,1,48,9
+KFC,Monday,16,0,27,2
+Subway,Monday,13,0,90,38
+Subway,Thursday,14,0,83,21
+Pizza Hut,Friday,18,0,72,20
+McDonald's,Sunday,19,1,97,40
+McDonald's,Saturday,14,1,70,26
+Subway,Tuesday,10,0,19,3
+KFC,Friday,19,0,100,37
+Domino's,Wednesday,17,0,52,14
+Burger King,Wednesday,14,0,60,12
+Pizza Hut,Wednesday,13,0,86,41
+Subway,Thursday,22,0,24,2
+Domino's,Sunday,10,1,32,7
+Burger King,Tuesday,21,0,91,32
+Subway,Thursday,12,0,83,23
+Domino's,Monday,17,0,29,4
+Subway,Friday,20,0,72,21
+Burger King,Tuesday,9,0,57,12
+McDonald's,Thursday,9,0,60,12
+Pizza Hut,Tuesday,13,0,87,37
+Subway,Tuesday,12,0,64,18
+Pizza Hut,Monday,18,0,82,30
+Burger King,Saturday,10,1,25,4
+Burger King,Friday,15,0,17,5
+Domino's,Sunday,10,1,68,14
+KFC,Thursday,18,0,78,22
+McDonald's,Saturday,22,1,29,5
+KFC,Thursday,14,0,90,30
+Burger King,Saturday,12,1,98,37
+Pizza Hut,Monday,20,0,79,21
+Domino's,Wednesday,17,0,38,6
+Domino's,Monday,10,0,39,8
+Burger King,Tuesday,18,0,82,27
+Subway,Thursday,17,0,40,8
+Subway,Tuesday,12,0,62,16
+McDonald's,Thursday,19,0,75,27
+KFC,Sunday,12,1,85,45
+Domino's,Monday,13,0,63,16
+Domino's,Monday,19,0,95,43
+KFC,Saturday,20,1,100,32
+McDonald's,Thursday,20,0,93,30
+KFC,Wednesday,21,0,97,35
+Subway,Wednesday,9,0,45,12
+Burger King,Monday,18,0,94,42
+McDonald's,Friday,11,0,28,3
+Pizza Hut,Sunday,17,1,33,6
+KFC,Saturday,21,1,100,39
+KFC,Thursday,21,0,78,26
+Burger King,Sunday,22,1,59,18
+Subway,Saturday,12,1,70,22
+Burger King,Sunday,20,1,100,44
+Burger King,Saturday,20,1,78,20
+McDonald's,Friday,9,0,51,20
+Subway,Friday,22,0,38,12
+McDonald's,Friday,21,0,86,41
+Burger King,Friday,12,0,78,24
+Domino's,Tuesday,14,0,78,25
+Subway,Friday,21,0,98,43
+Subway,Friday,12,0,70,27
+Domino's,Friday,18,0,84,26
+Subway,Monday,15,0,43,9
+Burger King,Monday,20,0,93,45
+KFC,Tuesday,18,0,75,22
+McDonald's,Sunday,20,1,100,33
+Domino's,Monday,12,0,69,14
+KFC,Thursday,15,0,20,5
+Subway,Sunday,20,1,100,34
+Burger King,Wednesday,15,0,26,5
+Domino's,Sunday,15,1,28,4
+Domino's,Saturday,16,1,61,14
+Subway,Saturday,9,1,65,15
+McDonald's,Saturday,16,1,29,5
+Burger King,Wednesday,12,0,76,22
+Burger King,Tuesday,19,0,93,42
+KFC,Sunday,18,1,93,45
+McDonald's,Wednesday,19,0,96,30
+Subway,Wednesday,11,0,54,14
+Subway,Wednesday,9,0,44,9
+Burger King,Friday,15,0,29,5
+Subway,Thursday,10,0,14,4
+McDonald's,Wednesday,14,0,86,42
+McDonald's,Thursday,16,0,54,14
+Pizza Hut,Sunday,18,1,88,31
+Domino's,Friday,17,0,16,4
+McDonald's,Sunday,13,1,71,20
+Pizza Hut,Friday,18,0,96,37
+Pizza Hut,Friday,14,0,69,19
+KFC,Wednesday,11,0,19,5
+Pizza Hut,Saturday,14,1,74,30
+Subway,Sunday,9,1,74,27
+Pizza Hut,Sunday,19,1,100,33
+McDonald's,Friday,14,0,72,22
+Burger King,Monday,10,0,28,5
+KFC,Sunday,10,1,67,16
+Subway,Tuesday,12,0,63,14
+KFC,Thursday,15,0,21,4
+McDonald's,Saturday,18,1,84,24
+Domino's,Thursday,16,0,42,10
+Subway,Monday,19,0,94,31
+Burger King,Friday,17,0,20,1
+Burger King,Wednesday,15,0,25,2
+McDonald's,Tuesday,12,0,84,23
+Pizza Hut,Saturday,18,1,98,41
+KFC,Saturday,18,1,95,43
+Pizza Hut,Monday,18,0,71,26
+Burger King,Monday,14,0,89,41
+KFC,Sunday,12,1,78,24
+Burger King,Saturday,17,1,48,11
+McDonald's,Thursday,15,0,52,18
+KFC,Wednesday,22,0,15,2
+KFC,Monday,21,0,73,22
