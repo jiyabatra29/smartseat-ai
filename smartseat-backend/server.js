@@ -7,6 +7,7 @@ const restaurantRoutes = require("./routes/restaurantRoutes");
 const reviewRoutes = require("./routes/reviewRoutes");
 const analyticsRoutes = require("./routes/analyticsRoutes");
 const predictionRoutes = require("./routes/predictionRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 
 
@@ -21,6 +22,7 @@ app.use("/api/restaurants", restaurantRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/analytics", analyticsRoutes);
 app.use("/api/predict", predictionRoutes);
+app.use("/api/auth", authRoutes);
 
 // Home Route
 app.get("/", (req, res) => {

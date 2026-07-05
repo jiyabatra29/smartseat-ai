@@ -1,54 +1,121 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Navbar from "../components/Navbar";
 
+
 function RestaurantDetails() {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const [restaurant, setRestaurant] = useState(null);
   const [prediction, setPrediction] = useState(null);
   const [loading, setLoading] = useState(true);
   const [predictLoading, setPredictLoading] = useState(false);
+  const [reviews, setReviews] = useState([]);
+
+const [reviewData, setReviewData] = useState({
+  rating: 5,
+  comment: "",
+});
 
   useEffect(() => {
     fetchRestaurant();
   }, [id]);
 
   const fetchRestaurant = async () => {
-    try {
-      const response = await axios.get(
-        `http://localhost:5000/api/restaurants/${id}`
-      );
+  try {
+    const response = await axios.get(
+      `http://localhost:5000/api/restaurants/${id}`
+    );
 
-      setRestaurant(response.data);
-    } catch (error) {
-      console.error("Restaurant Error:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    setRestaurant(response.data);
+
+    const reviewRes = await axios.get(
+      `http://localhost:5000/api/reviews/${id}`
+    );
+
+    setReviews(reviewRes.data);
+
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const predictCrowd = async () => {
-    try {
-      setPredictLoading(true);
 
-      const predictionRes = await axios.post(
-        "http://127.0.0.1:5001/predict",
-        {
-          restaurant: restaurant.name,
-          crowd: restaurant.crowd,
-        }
-      );
+  const token = localStorage.getItem("token");
 
-      setPrediction(predictionRes.data);
-    } catch (error) {
-      console.error("Prediction Error:", error);
-      alert("AI Prediction Failed");
-    } finally {
-      setPredictLoading(false);
-    }
-  };
+  if (!token) {
+    alert("Please login to use AI Prediction");
+    navigate("/login");
+    return;
+  }
+
+  try {
+    setPredictLoading(true);
+
+    const predictionRes = await axios.post(
+      "http://127.0.0.1:5001/predict",
+      {
+        restaurant: restaurant.name,
+        crowd: restaurant.crowd,
+      }
+    );
+
+    setPrediction(predictionRes.data);
+
+  } catch (error) {
+    console.log(error);
+    alert("Prediction Failed");
+  } finally {
+    setPredictLoading(false);
+  }
+
+};
+const handleReviewChange = (e) => {
+  setReviewData({
+    ...reviewData,
+    [e.target.name]: e.target.value,
+  });
+};
+const submitReview = async () => {
+
+  const token = localStorage.getItem("token");
+
+  if (!token) {
+    alert("Please login first");
+    navigate("/login");
+    return;
+  }
+
+  try {
+
+    await axios.post("http://localhost:5000/api/reviews", {
+      restaurantId: restaurant._id,
+      userId: localStorage.getItem("userId"),
+      name: localStorage.getItem("name"),
+      rating: Number(reviewData.rating),
+      comment: reviewData.comment,
+    });
+
+    alert("Review Added Successfully");
+
+    setReviewData({
+      rating: 5,
+      comment: "",
+    });
+
+    fetchRestaurant();
+
+  } catch (error) {
+    console.log(error);
+    alert("Failed to submit review");
+  }
+};
 
   if (loading) {
     return (
@@ -189,6 +256,86 @@ function RestaurantDetails() {
               </div>
             </div>
           )}
+
+          {/* Review Section */}
+
+<div className="bg-white rounded-2xl shadow-lg p-8 mt-8">
+
+  <h2 className="text-3xl font-bold mb-6">
+    ⭐ Reviews
+  </h2>
+
+  <div className="space-y-4">
+
+    <select
+      name="rating"
+      value={reviewData.rating}
+      onChange={handleReviewChange}
+      className="w-full border p-3 rounded-lg"
+    >
+      <option value={5}>⭐⭐⭐⭐⭐</option>
+      <option value={4}>⭐⭐⭐⭐</option>
+      <option value={3}>⭐⭐⭐</option>
+      <option value={2}>⭐⭐</option>
+      <option value={1}>⭐</option>
+    </select>
+
+    <textarea
+      name="comment"
+      value={reviewData.comment}
+      onChange={handleReviewChange}
+      placeholder="Write your review..."
+      className="w-full border p-3 rounded-lg"
+      rows="4"
+    />
+
+    <button
+      onClick={submitReview}
+      className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg"
+    >
+      Submit Review
+    </button>
+
+  </div>
+
+  <hr className="my-8"/>
+
+  {reviews.length === 0 ? (
+
+    <p>No Reviews Yet</p>
+
+  ) : (
+
+    reviews.map((review) => (
+
+      <div
+        key={review._id}
+        className="border-b py-5"
+      >
+
+        <h3 className="font-bold text-xl">
+          {review.name}
+        </h3>
+
+        <p className="text-yellow-600 mt-2">
+          {"⭐".repeat(review.rating)}
+        </p>
+
+        <p className="mt-2">
+          {review.comment}
+        </p>
+
+        <p className="text-gray-500 text-sm mt-2">
+          {new Date(review.createdAt).toLocaleString()}
+        </p>
+
+      </div>
+
+    ))
+
+  )}
+
+</div>
 
         </div>
       </div>

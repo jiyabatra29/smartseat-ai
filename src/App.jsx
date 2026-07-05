@@ -6,6 +6,12 @@ import Analytics from "./pages/Analytics";
 import RestaurantDetails from "./pages/RestaurantDetails";
 import AddRestaurant from "./pages/AddRestaurant";
 import EditRestaurant from "./pages/EditRestaurant";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+
+import AdminLogin from "./pages/AdminLogin";
+import OwnerSignup from "./pages/OwnerSignup";
+import ProtectedAdminRoute from "./components/ProtectedAdminRoute";
 
 function App() {
   return (
@@ -30,14 +36,31 @@ function App() {
         />
 
         <Route
-          path="/admin/add-restaurant"
-          element={<AddRestaurant />}
-        />
+  path="/admin/add-restaurant"
+  element={
+    <ProtectedAdminRoute>
+      <AddRestaurant />
+    </ProtectedAdminRoute>
+  }
+/>
 
-        <Route
-          path="/edit/:id"
-          element={<EditRestaurant />}
-        />
+<Route
+  path="/edit/:id"
+  element={
+    <ProtectedAdminRoute>
+      <EditRestaurant />
+    </ProtectedAdminRoute>
+  }
+/>
+  <Route path="/login" element={<Login />} />
+
+<Route path="/signup" element={<Signup />} />
+
+<Route path="/admin/login" element={<AdminLogin />} />
+
+<Route path="/owner-signup" element={<OwnerSignup />} />
+
+
 
       </Routes>
     </BrowserRouter>

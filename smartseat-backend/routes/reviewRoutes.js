@@ -3,32 +3,51 @@ const router = express.Router();
 
 const Review = require("../models/Review");
 
-
 // =======================
-// Add Review
+// ADD REVIEW
 // =======================
 
 router.post("/", async (req, res) => {
   try {
-    const review = new Review(req.body);
+    const {
+      restaurantId,
+      userId,
+      name,
+      rating,
+      comment,
+    } = req.body;
+
+    const review = new Review({
+      restaurantId,
+      userId,
+      name,
+      rating,
+      comment,
+    });
 
     const savedReview = await review.save();
 
-    res.status(201).json(savedReview);
+    res.status(201).json({
+      message: "Review Added Successfully",
+      review: savedReview,
+    });
+
   } catch (error) {
+    console.log(error);
+
     res.status(500).json({
-      message: error.message,
+      message: "Server Error",
     });
   }
 });
 
-
 // =======================
-// Get Reviews of Restaurant
+// GET REVIEWS OF RESTAURANT
 // =======================
 
 router.get("/:restaurantId", async (req, res) => {
   try {
+
     const reviews = await Review.find({
       restaurantId: req.params.restaurantId,
     }).sort({
@@ -36,29 +55,47 @@ router.get("/:restaurantId", async (req, res) => {
     });
 
     res.json(reviews);
+
   } catch (error) {
+
+    console.log(error);
+
     res.status(500).json({
-      message: error.message,
+      message: "Server Error",
     });
+
   }
 });
 
-
 // =======================
-// Delete Review
+// DELETE REVIEW
 // =======================
 
 router.delete("/:id", async (req, res) => {
   try {
-    await Review.findByIdAndDelete(req.params.id);
+
+    const review = await Review.findByIdAndDelete(
+      req.params.id
+    );
+
+    if (!review) {
+      return res.status(404).json({
+        message: "Review not found",
+      });
+    }
 
     res.json({
-      message: "Review Deleted",
+      message: "Review Deleted Successfully",
     });
+
   } catch (error) {
+
+    console.log(error);
+
     res.status(500).json({
-      message: error.message,
+      message: "Server Error",
     });
+
   }
 });
 
