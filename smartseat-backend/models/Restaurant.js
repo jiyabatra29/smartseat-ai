@@ -26,6 +26,14 @@ const restaurantSchema = new mongoose.Schema({
     default: "",
   },
 
+  // ===== Restaurant Owner =====
+
+  owner: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
+
   // ===== ML Inputs =====
 
   day: {

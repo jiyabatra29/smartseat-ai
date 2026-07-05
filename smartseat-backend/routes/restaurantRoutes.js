@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const Restaurant = require("../models/Restaurant");
+const authMiddleware = require("../middleware/authMiddleware");
 
 // ==============================
 // GET ALL RESTAURANTS
@@ -44,13 +45,17 @@ router.get("/:id", async (req, res) => {
 // ADD RESTAURANT
 // ==============================
 
-router.post("/", async (req, res) => {
+router.post("/", authMiddleware, async (req, res) => {
   try {
-    const restaurant = new Restaurant(req.body);
+    const restaurant = new Restaurant({
+      ...req.body,
+      owner: req.user.id,
+    });
 
     const savedRestaurant = await restaurant.save();
 
     res.status(201).json(savedRestaurant);
+
   } catch (error) {
     res.status(500).json({
       message: error.message,

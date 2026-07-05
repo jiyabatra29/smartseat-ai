@@ -51,11 +51,17 @@ function AddRestaurant() {
     e.preventDefault();
 
     try {
-      await axios.post(
-        "http://localhost:5000/api/restaurants",
-        formData
-      );
+      const token = localStorage.getItem("token");
 
+await axios.post(
+  "http://localhost:5000/api/restaurants",
+  formData,
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
       await fetchRestaurants();
 
       alert("Restaurant Added Successfully!");
@@ -93,9 +99,16 @@ function AddRestaurant() {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(
-        `http://localhost:5000/api/restaurants/${id}`
-      );
+      const token = localStorage.getItem("token");
+
+await axios.delete(
+  `http://localhost:5000/api/restaurants/${id}`,
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
 
       alert("Restaurant Deleted Successfully!");
 
@@ -251,7 +264,12 @@ function AddRestaurant() {
           ) : (
             <div className="grid md:grid-cols-3 gap-8">
 
-              {restaurants.map((restaurant) => (
+              {restaurants
+.filter(
+  (restaurant) =>
+    restaurant.owner === localStorage.getItem("userId")
+)
+.map((restaurant) => (
 
                 <div
                   key={restaurant._id}

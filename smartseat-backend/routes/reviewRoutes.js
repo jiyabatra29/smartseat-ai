@@ -1,25 +1,64 @@
 const express = require("express");
 const router = express.Router();
 
+const jwt = require("jsonwebtoken");
+
 const Review = require("../models/Review");
+const Restaurant = require("../models/Restaurant");
+
+// =======================
+// AUTH MIDDLEWARE
+// =======================
+
+const auth = (req, res, next) => {
+  const token = req.headers.authorization?.split(" ")[1];
+
+  if (!token) {
+    return res.status(401).json({
+      message: "Login Required",
+    });
+  }
+
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    req.user = decoded;
+
+    next();
+  } catch (err) {
+    res.status(401).json({
+      message: "Invalid Token",
+    });
+  }
+};
 
 // =======================
 // ADD REVIEW
 // =======================
 
-router.post("/", async (req, res) => {
+router.post("/", auth, async (req, res) => {
   try {
     const {
       restaurantId,
-      userId,
       name,
       rating,
       comment,
     } = req.body;
 
+    const restaurant = await Restaurant.findById(
+      restaurantId
+    );
+
+    if (!restaurant) {
+      return res.status(404).json({
+        message: "Restaurant not found",
+      });
+    }
+
     const review = new Review({
       restaurantId,
-      userId,
+      restaurantOwner: restaurant.owner,
+      userId: req.user.id,
       name,
       rating,
       comment,
@@ -33,16 +72,18 @@ router.post("/", async (req, res) => {
     });
 
   } catch (error) {
+
     console.log(error);
 
     res.status(500).json({
       message: "Server Error",
     });
+
   }
 });
 
 // =======================
-// GET REVIEWS OF RESTAURANT
+// GET REVIEWS
 // =======================
 
 router.get("/:restaurantId", async (req, res) => {
@@ -71,18 +112,30 @@ router.get("/:restaurantId", async (req, res) => {
 // DELETE REVIEW
 // =======================
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", auth, async (req, res) => {
   try {
 
-    const review = await Review.findByIdAndDelete(
-      req.params.id
-    );
+    const review = await Review.findById(req.params.id);
 
     if (!review) {
       return res.status(404).json({
         message: "Review not found",
       });
     }
+
+    const isReviewOwner =
+      review.userId.toString() === req.user.id;
+
+    const isRestaurantOwner =
+      review.restaurantOwner.toString() === req.user.id;
+
+    if (!isReviewOwner && !isRestaurantOwner) {
+      return res.status(403).json({
+        message: "Not Authorized",
+      });
+    }
+
+    await Review.findByIdAndDelete(req.params.id);
 
     res.json({
       message: "Review Deleted Successfully",

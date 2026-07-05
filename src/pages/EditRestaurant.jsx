@@ -48,10 +48,17 @@ function EditRestaurant() {
     e.preventDefault();
 
     try {
-      await axios.put(
-        `http://localhost:5000/api/restaurants/${id}`,
-        formData
-      );
+     const token = localStorage.getItem("token");
+
+await axios.put(
+  `http://localhost:5000/api/restaurants/${id}`,
+  formData,
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
 
       alert("Restaurant Updated Successfully!");
 

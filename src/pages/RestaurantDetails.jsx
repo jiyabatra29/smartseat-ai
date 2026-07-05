@@ -94,13 +94,20 @@ const submitReview = async () => {
 
   try {
 
-    await axios.post("http://localhost:5000/api/reviews", {
-      restaurantId: restaurant._id,
-      userId: localStorage.getItem("userId"),
-      name: localStorage.getItem("name"),
-      rating: Number(reviewData.rating),
-      comment: reviewData.comment,
-    });
+    await axios.post(
+      "http://localhost:5000/api/reviews",
+      {
+        restaurantId: restaurant._id,
+        name: localStorage.getItem("name"),
+        rating: Number(reviewData.rating),
+        comment: reviewData.comment,
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
 
     alert("Review Added Successfully");
 
@@ -115,6 +122,40 @@ const submitReview = async () => {
     console.log(error);
     alert("Failed to submit review");
   }
+};
+
+const deleteReview = async (reviewId) => {
+
+  const token = localStorage.getItem("token");
+
+  if (!token) return;
+
+  try {
+
+    await axios.delete(
+      `http://localhost:5000/api/reviews/${reviewId}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    alert("Review Deleted");
+
+    fetchRestaurant();
+
+  } catch (error) {
+
+    console.log(error);
+
+    alert(
+      error.response?.data?.message ||
+      "Delete Failed"
+    );
+
+  }
+
 };
 
   if (loading) {
@@ -308,28 +349,44 @@ const submitReview = async () => {
 
     reviews.map((review) => (
 
-      <div
-        key={review._id}
-        className="border-b py-5"
+    <div
+  key={review._id}
+  className="border-b py-5"
+>
+
+  <div className="flex justify-between items-center">
+
+    <h3 className="font-bold text-xl">
+      {review.name}
+    </h3>
+
+    {(review.userId === localStorage.getItem("userId") ||
+      restaurant.owner === localStorage.getItem("userId")) && (
+
+      <button
+        onClick={() => deleteReview(review._id)}
+        className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg"
       >
+        Delete
+      </button>
 
-        <h3 className="font-bold text-xl">
-          {review.name}
-        </h3>
+    )}
 
-        <p className="text-yellow-600 mt-2">
-          {"⭐".repeat(review.rating)}
-        </p>
+  </div>
 
-        <p className="mt-2">
-          {review.comment}
-        </p>
+  <p className="text-yellow-600 mt-2">
+    {"⭐".repeat(review.rating)}
+  </p>
 
-        <p className="text-gray-500 text-sm mt-2">
-          {new Date(review.createdAt).toLocaleString()}
-        </p>
+  <p className="mt-2">
+    {review.comment}
+  </p>
 
-      </div>
+  <p className="text-gray-500 text-sm mt-2">
+    {new Date(review.createdAt).toLocaleString()}
+  </p>
+
+</div>
 
     ))
 

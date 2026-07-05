@@ -8,9 +8,18 @@ const reviewSchema = new mongoose.Schema(
       required: true,
     },
 
+    // User who wrote the review
     userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      required: true,
+    },
+
+    // Restaurant owner (saved so owner can delete reviews)
+    restaurantOwner: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
     },
 
     name: {
