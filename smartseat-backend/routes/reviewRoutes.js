@@ -3,7 +3,7 @@ const router = express.Router();
 
 const jwt = require("jsonwebtoken");
 
-const Review = require("../models/Review");
+const Review = require("../models/temp");
 const Restaurant = require("../models/Restaurant");
 
 // =======================
