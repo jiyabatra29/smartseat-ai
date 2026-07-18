@@ -28,7 +28,7 @@ function EditRestaurant() {
   const fetchRestaurant = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/restaurants/${id}`
+        `https://smartseat-ai.onrender.com/api/restaurants/${id}`
       );
 
       setFormData(res.data);
@@ -52,7 +52,7 @@ function EditRestaurant() {
      const token = localStorage.getItem("token");
 
 await axios.put(
-  `http://localhost:5000/api/restaurants/${id}`,
+  `https://smartseat-ai.onrender.com/api/restaurants/${id}`,
   formData,
   {
     headers: {

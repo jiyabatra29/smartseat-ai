@@ -47,7 +47,7 @@ function Restaurants() {
             );
 
             const response = await axios.get(
-              `http://localhost:5000/api/restaurants/nearby/${lat}/${lng}`
+              `https://smartseat-ai.onrender.com/api/restaurants/nearby/${lat}/${lng}`
             );
 
             setRestaurants(response.data);
@@ -57,7 +57,7 @@ function Restaurants() {
           async () => {
 
             const response = await axios.get(
-              "http://localhost:5000/api/restaurants"
+              "https://smartseat-ai.onrender.com/api/restaurants"
             );
 
             setRestaurants(response.data);
@@ -69,7 +69,7 @@ function Restaurants() {
       } else {
 
         const response = await axios.get(
-          "http://localhost:5000/api/restaurants"
+          "https://smartseat-ai.onrender.com/api/restaurants"
         );
 
         setRestaurants(response.data);

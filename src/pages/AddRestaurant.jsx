@@ -27,7 +27,7 @@ closingTime: "22:00",
   const fetchRestaurants = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/restaurants"
+        "https://smartseat-ai.onrender.com/api/restaurants"
       );
 
       setRestaurants(res.data);
@@ -57,7 +57,7 @@ closingTime: "22:00",
     try {
       const token = localStorage.getItem("token");
 await axios.post(
-  "http://localhost:5000/api/restaurants",
+  "https://smartseat-ai.onrender.com/api/restaurants",
   {
     ...formData,
     location: {
@@ -115,7 +115,7 @@ closingTime: "22:00",
       const token = localStorage.getItem("token");
 
 await axios.delete(
-  `http://localhost:5000/api/restaurants/${id}`,
+  `https://smartseat-ai.onrender.com/api/restaurants/${id}`,
   {
     headers: {
       Authorization: `Bearer ${token}`,

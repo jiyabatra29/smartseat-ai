@@ -376,7 +376,7 @@ router.get("/alternatives/:id/:lat/:lng", async (req, res) => {
 
     // Get all restaurants (owner + geoapify)
     const response = await axios.get(
-      `http://localhost:5000/api/restaurants/nearby/${userLat}/${userLng}`
+      `https://smartseat-ai.onrender.com/api/restaurants/nearby/${userLat}/${userLng}`
     );
 
     let restaurants = response.data;

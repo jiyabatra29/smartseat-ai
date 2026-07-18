@@ -44,7 +44,7 @@ function RestaurantDetails() {
         );
 
         const res = await axios.get(
-          `http://localhost:5000/api/restaurants/nearby/${userLocation.lat}/${userLocation.lng}`
+          `https://smartseat-ai.onrender.com/api/restaurants/nearby/${userLocation.lat}/${userLocation.lng}`
         );
 
         const selectedRestaurant = res.data.find(
@@ -59,13 +59,13 @@ function RestaurantDetails() {
       } else {
 
         const response = await axios.get(
-          `http://localhost:5000/api/restaurants/${id}`
+          `https://smartseat-ai.onrender.com/api/restaurants/${id}`
         );
 
         setRestaurant(response.data);
 
         const reviewRes = await axios.get(
-          `http://localhost:5000/api/reviews/${id}`
+          `https://smartseat-ai.onrender.com/api/reviews/${id}`
         );
 
         setReviews(reviewRes.data);
@@ -77,7 +77,7 @@ function RestaurantDetails() {
         if (userLocation) {
 
           const altRes = await axios.get(
-            `http://localhost:5000/api/restaurants/alternatives/${response.data._id}/${userLocation.lat}/${userLocation.lng}`
+            `https://smartseat-ai.onrender.com/api/restaurants/alternatives/${response.data._id}/${userLocation.lat}/${userLocation.lng}`
           );
 
           setAlternatives(altRes.data);
@@ -166,7 +166,7 @@ function RestaurantDetails() {
     });
 
     await axios.post(
-      "http://localhost:5000/api/reviews",
+      "https://smartseat-ai.onrender.com/api/reviews",
       {
         restaurantId: restaurant._id,
         name: localStorage.getItem("name"),
@@ -209,7 +209,7 @@ function RestaurantDetails() {
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/reviews/${reviewId}`,
+        `https://smartseat-ai.onrender.com/api/reviews/${reviewId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
