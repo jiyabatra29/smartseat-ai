@@ -13,17 +13,22 @@ function LocationMap({ location }) {
   const [nearbyRestaurants, setNearbyRestaurants] = useState([]);
 
   useEffect(() => {
+  if (location) {
     fetchNearbyRestaurants();
-  }, []);
+  }
+}, [location]);
 
   const fetchNearbyRestaurants = async () => {
     try {
       const query = `
       [out:json];
-      node
-      ["amenity"="restaurant"]
-      (around:3000,${location.lat},${location.lng});
-      out;
+      (
+node["amenity"="restaurant"](around:5000,${location.lat},${location.lng});
+node["amenity"="fast_food"](around:5000,${location.lat},${location.lng});
+node["amenity"="cafe"](around:5000,${location.lat},${location.lng});
+);
+out;
+
       `;
 
       const response = await fetch(

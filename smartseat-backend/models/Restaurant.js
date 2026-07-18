@@ -16,26 +16,52 @@ const restaurantSchema = new mongoose.Schema({
     default: "Low",
   },
 
-  waitTime: {
-    type: Number,
-    default: 0,
-  },
-
   image: {
     type: String,
     default: "",
   },
 
-  // ===== Restaurant Owner =====
+  location: {
+    lat: {
+      type: Number,
+      required: true,
+    },
+    lng: {
+      type: Number,
+      required: true,
+    },
+  },
 
+  // Restaurant Timing
+  openingTime: {
+    type: String,
+    default: "09:00",
+  },
+
+  closingTime: {
+    type: String,
+    default: "22:00",
+  },
+
+  // API / Owner Source
+  source: {
+    type: String,
+    default: "owner",
+  },
+
+  distance: {
+    type: Number,
+    default: 0,
+  },
+
+  // Restaurant Owner
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
     required: true,
   },
 
-  // ===== ML Inputs =====
-
+  // ML Inputs
   day: {
     type: String,
     default: "Monday",
@@ -57,7 +83,4 @@ const restaurantSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model(
-  "Restaurant",
-  restaurantSchema
-);
+module.exports = mongoose.model("Restaurant", restaurantSchema);

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ChevronRight, MapPin, Clock, Star } from "lucide-react";
 
 function RestaurantCard({
   id,
@@ -7,51 +8,95 @@ function RestaurantCard({
   rating,
   crowd,
   waitTime,
+  distance,
+  openingTime,
+  closingTime,
+  openingHours,
+  source,
 }) {
+  const badgeColor = () => {
+    if (crowd === "Low")
+      return "bg-green-100 text-green-700";
+
+    if (crowd === "Medium")
+      return "bg-yellow-100 text-yellow-700";
+
+    if (crowd === "High")
+      return "bg-red-100 text-red-700";
+
+    return "bg-gray-100 text-gray-600";
+  };
+
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-5 hover:shadow-xl transition">
+    <Link to={`/restaurant/${id}`}>
 
-      <img
-        src={
-          image ||
-          "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
-        }
-        alt={name}
-        className="h-48 w-full object-cover rounded-xl mb-4"
-      />
+      <div className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-4 flex gap-4 items-center border border-slate-100 cursor-pointer">
 
-      <h2 className="text-xl font-bold">
-        {name}
-      </h2>
+        {/* Image */}
 
-      <p className="text-gray-600 mt-2">
-        ⭐ {rating || "N/A"}
-      </p>
+        <img
+          src={
+            image ||
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
+          }
+          alt={name}
+          className="w-40 h-40 rounded-2xl object-cover flex-shrink-0"
+        />
 
-      <div className="mt-4 flex justify-between">
-        <span
-          className={`px-3 py-1 rounded-full text-sm font-semibold ${
-            crowd === "Low"
-              ? "bg-green-100 text-green-700"
-              : crowd === "Medium"
-              ? "bg-yellow-100 text-yellow-700"
-              : "bg-red-100 text-red-700"
-          }`}
-        >
-          {crowd || "Unknown"}
-        </span>
+        {/* Content */}
 
-        <span className="text-gray-600">
-          ⏱ {waitTime || 0} mins
-        </span>
+        <div className="flex-1">
+
+          <h2 className="text-xl font-bold text-slate-800 line-clamp-1">
+            {name}
+          </h2>
+
+          <div className="flex items-center gap-2 mt-2">
+
+            <div className="flex items-center gap-1 text-yellow-500 font-semibold text-sm">
+              <Star size={15} fill="currentColor" />
+              {rating || "N/A"}
+            </div>
+
+            <span className="text-gray-300">|</span>
+
+            <span
+              className={`px-3 py-1 rounded-full text-xs font-semibold ${badgeColor()}`}
+            >
+              {crowd}
+            </span>
+
+          </div>
+
+          <div className="mt-4 space-y-2">
+
+            {distance !== undefined && (
+              <div className="flex items-center gap-2 text-gray-600 text-sm">
+                <MapPin size={16} />
+                <span>{distance.toFixed(1)} km away</span>
+              </div>
+            )}
+
+            <div className="flex items-center gap-2 text-gray-600 text-sm">
+              <Clock size={16} />
+              <span>{waitTime || "--"} mins</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* Arrow */}
+
+        <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center">
+
+          <ChevronRight size={20} className="text-slate-500" />
+
+        </div>
+
       </div>
 
-      <Link to={`/restaurant/${id}`}>
-        <button className="w-full mt-5 bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700">
-          View Details
-        </button>
-      </Link>
-    </div>
+    </Link>
   );
 }
 

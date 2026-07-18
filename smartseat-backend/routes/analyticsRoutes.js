@@ -1,25 +1,32 @@
 const express = require("express");
 const router = express.Router();
+const authMiddleware = require("../middleware/authMiddleware");
 
 const Restaurant = require("../models/Restaurant");
 const Review = require("../models/Review");
 
-router.get("/", async (req, res) => {
+router.get("/", authMiddleware, async (req, res) => {
   try {
-    const restaurants = await Restaurant.find();
-    const reviews = await Review.find();
+    const restaurants = await Restaurant.find({
+  owner: req.user.id,
+});
+    const restaurantIds = restaurants.map((r) => r._id);
+
+const reviews = await Review.find({
+  restaurantId: { $in: restaurantIds },
+});
 
     const totalRestaurants = restaurants.length;
 
-    const averageWaitTime =
-      totalRestaurants > 0
-        ? (
-            restaurants.reduce(
-              (sum, r) => sum + Number(r.waitTime),
-              0
-            ) / totalRestaurants
-          ).toFixed(1)
-        : 0;
+    const averageCrowd =
+  totalRestaurants > 0
+    ? (
+        restaurants.reduce(
+          (sum, r) => sum + Number(r.crowd),
+          0
+        ) / totalRestaurants
+      ).toFixed(0)
+    : 0;
 
     const averageRating =
       reviews.length > 0
@@ -80,7 +87,7 @@ router.get("/", async (req, res) => {
 
     res.json({
       totalRestaurants,
-      averageWaitTime,
+      averageCrowd,
       averageRating,
       totalReviews,
       crowdData,

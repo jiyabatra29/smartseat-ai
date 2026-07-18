@@ -5,15 +5,19 @@ import { Link } from "react-router-dom";
 
 function AddRestaurant() {
   const [formData, setFormData] = useState({
-    name: "",
-    rating: "",
-    crowdLevel: "Low",
-    crowd: "",
-    waitTime: "",
-    image: "",
-    day: "Monday",
-    hour: 12,
-    weekend: 0,
+     name: "",
+  rating: "",
+  crowdLevel: "Low",
+  crowd: "",
+  image: "",
+  openingTime: "09:00",
+closingTime: "22:00",
+  
+  lat: "",
+  lng: "",
+  day: "Monday",
+  hour: 12,
+  weekend: 0,
   });
 
   const [restaurants, setRestaurants] = useState([]);
@@ -52,10 +56,15 @@ function AddRestaurant() {
 
     try {
       const token = localStorage.getItem("token");
-
 await axios.post(
   "http://localhost:5000/api/restaurants",
-  formData,
+  {
+    ...formData,
+    location: {
+      lat: Number(formData.lat),
+      lng: Number(formData.lng),
+    },
+  },
   {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -68,14 +77,18 @@ await axios.post(
 
       setFormData({
         name: "",
-        rating: "",
-        crowdLevel: "Low",
-        crowd: "",
-        waitTime: "",
-        image: "",
-        day: "Monday",
-        hour: 12,
-        weekend: 0,
+  rating: "",
+  crowdLevel: "Low",
+  crowd: "",
+  image: "",
+  openingTime: "09:00",
+closingTime: "22:00",
+  
+  lat: "",
+  lng: "",
+  day: "Monday",
+  hour: 12,
+  weekend: 0,
       });
 
     } catch (error) {
@@ -120,252 +133,310 @@ await axios.delete(
   };
 
   return (
-    <>
-      <Navbar />
+  <>
+    <Navbar />
 
-      <section className="min-h-screen bg-slate-100 pt-32 px-8">
+    <section className="min-h-screen bg-gradient-to-b from-slate-50 via-blue-50 to-slate-100 pt-28 pb-10 px-8">
 
-        <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+      <div className="max-w-7xl mx-auto">
 
-          <h1 className="text-3xl font-bold mb-6 text-center">
-            Add Restaurant
-          </h1>
+        <div className="grid lg:grid-cols-[1fr_0.9fr] gap-12">
 
-          <form
-            onSubmit={handleSubmit}
-            className="space-y-4"
-          >
+          {/* ================= LEFT : EXISTING RESTAURANTS ================= */}
 
-            <input
-              type="text"
-              name="name"
-              placeholder="Restaurant Name"
-              value={formData.name}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
+          <div>
 
-            <input
-              type="number"
-              step="0.1"
-              name="rating"
-              placeholder="Rating"
-              value={formData.rating}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
+            <h2 className="text-3xl font-bold text-slate-800 mb-6">
+              Your Restaurants
+            </h2>
 
-            <select
-              name="crowdLevel"
-              value={formData.crowdLevel}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-            >
-              <option value="Low">Low</option>
-              <option value="Medium">Medium</option>
-              <option value="High">High</option>
-            </select>
+            {loading ? (
+  <p className="text-center text-xl py-10">
+    Loading Restaurants...
+  </p>
+) : restaurants.filter(
+    (restaurant) =>
+      restaurant.owner === localStorage.getItem("userId")
+  ).length === 0 ? (
+  <div className="bg-white rounded-3xl shadow-lg p-10 text-center">
+    <h3 className="text-2xl font-bold text-slate-700">
+      No Restaurants Yet 🍽️
+    </h3>
 
-            <input
-              type="number"
-              name="crowd"
-              placeholder="Current Crowd (%)"
-              value={formData.crowd}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
+    <p className="text-gray-500 mt-2">
+      Add your first restaurant from the form.
+    </p>
+  </div>
+) : (
 
-            <input
-              type="number"
-              name="waitTime"
-              placeholder="Wait Time (mins)"
-              value={formData.waitTime}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
+<div className="space-y-6">
 
-            <input
-              type="text"
-              name="image"
-              placeholder="Image URL"
-              value={formData.image}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
-
-            <select
-              name="day"
-              value={formData.day}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-            >
-              <option>Monday</option>
-              <option>Tuesday</option>
-              <option>Wednesday</option>
-              <option>Thursday</option>
-              <option>Friday</option>
-              <option>Saturday</option>
-              <option>Sunday</option>
-            </select>
-
-            <input
-              type="number"
-              name="hour"
-              min="0"
-              max="23"
-              placeholder="Hour (0-23)"
-              value={formData.hour}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-              required
-            />
-
-            <select
-              name="weekend"
-              value={formData.weekend}
-              onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
-            >
-              <option value={0}>Weekday</option>
-              <option value={1}>Weekend</option>
-            </select>
-
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700"
-            >
-              Add Restaurant
-            </button>
-
-          </form>
-
-        </div>
-                {/* Restaurant List */}
-
-        <div className="max-w-6xl mx-auto mt-12">
-
-          <h2 className="text-3xl font-bold text-center mb-8">
-            Existing Restaurants
-          </h2>
-
-          {loading ? (
-            <p className="text-center text-xl">
-              Loading Restaurants...
-            </p>
-          ) : restaurants.length === 0 ? (
-            <p className="text-center text-gray-500">
-              No Restaurants Found
-            </p>
-          ) : (
-            <div className="grid md:grid-cols-3 gap-8">
-
-              {restaurants
+{restaurants
 .filter(
-  (restaurant) =>
-    restaurant.owner === localStorage.getItem("userId")
+(restaurant)=>
+restaurant.owner===localStorage.getItem("userId")
 )
-.map((restaurant) => (
+.map((restaurant)=>(
 
-                <div
-                  key={restaurant._id}
-                  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition"
-                >
+<div
+key={restaurant._id}
+className="bg-white rounded-[28px] shadow-xl overflow-hidden flex w-[92%] hover:-translate-y-1 hover:shadow-2xl duration-300"
+>
 
-                  <img
-                    src={restaurant.image}
-                    alt={restaurant.name}
-                    className="h-52 w-full object-cover"
-                  />
+<img
+src={restaurant.image}
+alt={restaurant.name}
+className="w-64 h-56 object-cover"
+/>
 
-                  <div className="p-5">
+<div className="flex-1 p-6">
 
-                    <h3 className="text-2xl font-bold">
-                      {restaurant.name}
-                    </h3>
+<div className="flex justify-between">
 
-                    <p className="mt-2">
-                      ⭐ {restaurant.rating}
-                    </p>
+<div>
 
-                    <p className="mt-2">
-                      Crowd Level :
-                      <span
-                        className={`ml-2 px-3 py-1 rounded-full text-white text-sm ${
-                          restaurant.crowdLevel === "Low"
-                            ? "bg-green-500"
-                            : restaurant.crowdLevel === "Medium"
-                            ? "bg-yellow-500"
-                            : "bg-red-500"
-                        }`}
-                      >
-                        {restaurant.crowdLevel}
-                      </span>
-                    </p>
+<h2 className="text-2xl font-bold">
+{restaurant.name}
+</h2>
 
-                    <p className="mt-2">
-                      👥 Crowd : <b>{restaurant.crowd}%</b>
-                    </p>
+<p className="text-yellow-500 mt-2">
+⭐ {restaurant.rating}
+</p>
 
-                    <p className="mt-2">
-                      ⏱ Wait Time : {restaurant.waitTime} mins
-                    </p>
+<div className="flex gap-3 mt-4">
 
-                    <p className="mt-2">
-                      📅 Day : {restaurant.day}
-                    </p>
+<span
+className={`px-4 py-1 rounded-full text-white text-sm ${
+restaurant.crowdLevel==="Low"
+?"bg-green-500"
+:restaurant.crowdLevel==="Medium"
+?"bg-yellow-500"
+:"bg-red-500"
+}`}
+>
+{restaurant.crowdLevel}
+</span>
 
-                    <p className="mt-2">
-                      🕒 Hour : {restaurant.hour}:00
-                    </p>
+<span className="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm">
+👥 {restaurant.crowd}%
+</span>
 
-                    <p className="mt-2">
-                      {restaurant.weekend == 1
-                        ? "🎉 Weekend"
-                        : "💼 Weekday"}
-                    </p>
+</div>
 
-                    <div className="flex gap-3 mt-6">
+<div className="mt-5 text-gray-600 space-y-1">
 
-                      <Link
-                        to={`/edit/${restaurant._id}`}
-                        className="flex-1"
-                      >
-                        <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 rounded-lg">
-                          Edit
-                        </button>
-                      </Link>
+<p>🕒 {restaurant.openingTime} - {restaurant.closingTime}</p>
 
-                      <button
-                        onClick={() =>
-                          deleteRestaurant(restaurant._id)
-                        }
-                        className="flex-1 bg-red-600 hover:bg-red-700 text-white py-2 rounded-lg"
-                      >
-                        Delete
-                      </button>
+<p>📅 {restaurant.day}</p>
 
-                    </div>
+<p>{restaurant.weekend==1?"🎉 Weekend":"💼 Weekday"}</p>
 
-                  </div>
+</div>
 
-                </div>
+</div>
 
-              ))}
+<div className="flex flex-col gap-3">
 
-            </div>
-          )}
+<Link to={`/edit/${restaurant._id}`}>
 
-        </div>
+<button className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded-xl font-semibold">
+Edit
+</button>
 
-      </section>
+</Link>
 
-    </>
-  );
+<button
+onClick={()=>deleteRestaurant(restaurant._id)}
+className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-xl font-semibold"
+>
+Delete
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+))}
+</div>
+
+)}
+
+          </div>
+
+
+            {/* RIGHT SIDE */}
+
+<div className="sticky top-28">
+
+  <div className="bg-white rounded-[30px] shadow-xl p-8">
+
+    <h2 className="text-3xl font-bold text-slate-800 mb-6">
+      Add Restaurant
+    </h2>
+
+    <form
+      onSubmit={handleSubmit}
+      className="space-y-4"
+    >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Restaurant Name"
+        value={formData.name}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+        required
+      />
+
+      <input
+        type="number"
+        step="0.1"
+        name="rating"
+        placeholder="Rating"
+        value={formData.rating}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+        required
+      />
+
+      <select
+        name="crowdLevel"
+        value={formData.crowdLevel}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+      >
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+
+      <input
+        type="number"
+        name="crowd"
+        placeholder="Crowd %"
+        value={formData.crowd}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+      />
+
+      <div className="grid grid-cols-2 gap-4">
+
+        <input
+          type="time"
+          name="openingTime"
+          value={formData.openingTime}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        />
+
+        <input
+          type="time"
+          name="closingTime"
+          value={formData.closingTime}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        />
+
+      </div>
+
+      <input
+        type="text"
+        name="image"
+        placeholder="Image URL"
+        value={formData.image}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+      />
+
+      <div className="grid grid-cols-2 gap-4">
+
+        <input
+          type="number"
+          step="any"
+          name="lat"
+          placeholder="Latitude"
+          value={formData.lat}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        />
+
+        <input
+          type="number"
+          step="any"
+          name="lng"
+          placeholder="Longitude"
+          value={formData.lng}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        />
+
+      </div>
+
+      <select
+        name="day"
+        value={formData.day}
+        onChange={handleChange}
+        className="w-full border p-3 rounded-xl"
+      >
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+        <option>Sunday</option>
+      </select>
+
+      <div className="grid grid-cols-2 gap-4">
+
+        <input
+          type="number"
+          name="hour"
+          min="0"
+          max="23"
+          value={formData.hour}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        />
+
+        <select
+          name="weekend"
+          value={formData.weekend}
+          onChange={handleChange}
+          className="border p-3 rounded-xl"
+        >
+          <option value={0}>Weekday</option>
+          <option value={1}>Weekend</option>
+        </select>
+
+      </div>
+
+      <button
+        type="submit"
+        className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-semibold hover:scale-[1.02] transition"
+      >
+        Add Restaurant
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+        </div> {/* End Grid */}
+
+      </div> {/* End max-w-7xl */}
+
+    </section>
+
+  </>
+);
 }
 
 export default AddRestaurant;
+

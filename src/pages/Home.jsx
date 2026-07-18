@@ -57,50 +57,145 @@ function Home() {
         </div>
 
       </section>
+      
 
       {/* Features Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
+<section className="py-24 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-bold text-center mb-14">
-            Why SmartSeat AI?
-          </h2>
+    <div className="text-center mb-16">
+    
 
-          <div className="grid md:grid-cols-3 gap-8">
+      <h2 className="text-5xl font-bold text-gray-900 mt-3">
+        Everything You Need Before Dining Out
+      </h2>
 
-            <div className="bg-white p-8 rounded-3xl shadow-lg">
-              <h3 className="text-xl font-bold mb-3">
-                Crowd Prediction
-              </h3>
+      <p className="text-gray-500 mt-5 max-w-2xl mx-auto text-lg">
+        SmartSeat AI combines live restaurant discovery with AI-powered
+        crowd prediction to help you save time and avoid long queues.
+      </p>
+    </div>
 
-              <p className="text-gray-600">
-                Predict restaurant crowd levels before visiting.
-              </p>
-            </div>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
 
-            <div className="bg-white p-8 rounded-3xl shadow-lg">
-              <h3 className="text-xl font-bold mb-3">
-                Wait Time Estimation
-              </h3>
+      {/* Card 1 */}
 
-              <p className="text-gray-600">
-                Get estimated waiting times instantly.
-              </p>
-            </div>
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
-            <div className="bg-white p-8 rounded-3xl shadow-lg">
-              <h3 className="text-xl font-bold mb-3">
-                Nearby Restaurants
-              </h3>
-
-              <p className="text-gray-600">
-                Find restaurants near your current location.
-              </p>
-            </div>
-
-          </div>
+        <div className="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center text-3xl">
+          🤖
         </div>
-      </section>
+
+        <h3 className="text-2xl font-bold mt-6">
+          AI Crowd Prediction
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          Our machine learning model predicts future crowd levels,
+          expected waiting time and recommends the best time to visit.
+        </p>
+
+      </div>
+
+      {/* Card 2 */}
+
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+
+        <div className="w-16 h-16 rounded-2xl bg-green-100 flex items-center justify-center text-3xl">
+          📍
+        </div>
+
+        <h3 className="text-2xl font-bold mt-6">
+          Nearby Restaurants
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          Instantly discover restaurants, cafes and fast-food outlets
+          around your current location with live map integration.
+        </p>
+
+      </div>
+
+      {/* Card 3 */}
+
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+
+        <div className="w-16 h-16 rounded-2xl bg-orange-100 flex items-center justify-center text-3xl">
+          ⏳
+        </div>
+
+        <h3 className="text-2xl font-bold mt-6">
+          Wait Time Estimation
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          View estimated waiting times before leaving home and choose the
+          restaurant with the shortest queue.
+        </p>
+
+      </div>
+
+      {/* Card 4 */}
+
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+
+        <div className="w-16 h-16 rounded-2xl bg-purple-100 flex items-center justify-center text-3xl">
+          🧭
+        </div>
+
+        <h3 className="text-2xl font-bold mt-6">
+          Navigation Support
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          Get one-click Google Maps directions to your selected restaurant
+          without searching manually.
+        </p>
+
+      </div>
+
+      {/* Card 5 */}
+
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+
+        <div className="w-16 h-16 rounded-2xl bg-pink-100 flex items-center justify-center text-3xl">
+          ⭐
+        </div>
+
+        <h3 className="text-2xl font-bold mt-6">
+          Reviews & Ratings
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          Read genuine customer reviews and share your own dining
+          experience with the community.
+        </p>
+
+      </div>
+
+      {/* Card 6 */}
+
+      <div className="bg-white rounded-3xl border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+
+        <div className="w-16 h-16 rounded-2xl bg-cyan-100 flex items-center justify-center text-3xl">
+          📊
+        </div>
+
+        <h3 className="text-2xl font-bold mt-6">
+          Smart Analytics
+        </h3>
+
+        <p className="text-gray-600 mt-4 leading-7">
+          Explore crowd trends, restaurant performance and AI-generated
+          insights through interactive analytics.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* How It Works */}
       <section className="bg-slate-50 py-24">

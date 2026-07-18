@@ -30,16 +30,23 @@ function Analytics() {
   }, []);
 
   const fetchAnalytics = async () => {
-    try {
-      const response = await axios.get(
-        "http://localhost:5000/api/analytics"
-      );
+  try {
+    const token = localStorage.getItem("token");
 
-      setAnalytics(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+    const response = await axios.get(
+      "http://localhost:5000/api/analytics",
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    setAnalytics(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
 
   if (!analytics) {
     return (
@@ -61,13 +68,13 @@ function Analytics() {
 
       <div className="min-h-screen bg-slate-100 pt-32 px-8 pb-20">
 
-        <h1 className="text-5xl font-bold text-center">
-          SmartSeat Analytics Dashboard
-        </h1>
+        <h1 className="text-5xl font-bold text-center text-slate-800">
+  Your Restaurant Analytics
+</h1>
 
-        <p className="text-center text-gray-500 mt-3">
-          Live Restaurant Insights
-        </p>
+<p className="text-center text-gray-500 mt-3">
+  Statistics for your restaurants only
+</p>
 
         {/* Stats Cards */}
 
@@ -100,11 +107,11 @@ function Analytics() {
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
 
             <h3 className="text-gray-500">
-              Average Wait
+              Average Crowd
             </h3>
 
             <p className="text-4xl font-bold text-green-600 mt-4">
-              {analytics.averageWaitTime} min
+              {analytics.averageCrowd}% 
             </p>
 
           </div>

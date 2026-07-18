@@ -25,27 +25,69 @@ function Restaurants() {
 
   // Fetch Restaurants from Backend
   useEffect(() => {
-    const fetchRestaurants = async () => {
-      try {
+  const fetchRestaurants = async () => {
+    try {
+
+      if (navigator.geolocation) {
+
+        navigator.geolocation.getCurrentPosition(
+
+          async (position) => {
+
+            const lat = position.coords.latitude;
+            const lng = position.coords.longitude;
+
+            const userLocation = { lat, lng };
+
+            setLocation(userLocation);
+
+            localStorage.setItem(
+              "userLocation",
+              JSON.stringify(userLocation)
+            );
+
+            const response = await axios.get(
+              `http://localhost:5000/api/restaurants/nearby/${lat}/${lng}`
+            );
+
+            setRestaurants(response.data);
+            setLoading(false);
+          },
+
+          async () => {
+
+            const response = await axios.get(
+              "http://localhost:5000/api/restaurants"
+            );
+
+            setRestaurants(response.data);
+            setLoading(false);
+          }
+
+        );
+
+      } else {
+
         const response = await axios.get(
           "http://localhost:5000/api/restaurants"
         );
 
-        console.log("API DATA:", response.data);
-
         setRestaurants(response.data);
-      } catch (error) {
-        console.error(
-          "Error fetching restaurants:",
-          error
-        );
-      } finally {
         setLoading(false);
-      }
-    };
 
-    fetchRestaurants();
-  }, []);
+      }
+
+    } catch (error) {
+
+      console.log(error);
+      setLoading(false);
+
+    }
+  };
+
+  fetchRestaurants();
+
+}, []);
 
   // Debug
   useEffect(() => {
@@ -61,7 +103,8 @@ function Restaurants() {
 
       const matchesCrowd =
         crowdFilter === "All" ||
-        restaurant.crowdLevel === crowdFilter;
+        restaurant.crowdLevel === crowdFilter ||
+        restaurant.crowd=== crowdFilter;
 
       return matchesSearch && matchesCrowd;
     }
@@ -73,32 +116,33 @@ function Restaurants() {
     <>
       <Navbar />
 
-      <section className="min-h-screen bg-slate-100 pt-32 px-8">
-        <h1 className="text-5xl font-bold text-center mb-10">
-          Nearby Restaurants
-        </h1>
+      <section className="min-h-screen bg-gradient-to-b from-slate-50 via-blue-50 to-slate-100 pt-28 px-6">
+       <div className="text-center mb-10">
+  <h1 className="text-5xl font-bold text-slate-800">
+    🍽 Nearby Restaurants
+  </h1>
 
-        {location && (
-          <div className="flex justify-center mb-10">
-            <div className="bg-white shadow-lg rounded-2xl px-8 py-5">
-              <p className="font-semibold text-blue-600 text-lg">
-                📍 Location Detected Successfully
-              </p>
+  <p className="text-gray-500 mt-3">
+    Discover restaurants around your current location
+  </p>
+</div>
+       {location && (
+  <div className="max-w-6xl mx-auto mb-10">
 
-              <p className="text-gray-500 mt-2">
-                Latitude: {location.lat.toFixed(4)}
-                {" | "}
-                Longitude: {location.lng.toFixed(4)}
-              </p>
-            </div>
-          </div>
-        )}
+    <div className="flex justify-end mb-4">
+      <div className="bg-green-50 border border-green-200 text-green-700 px-5 py-3 rounded-full shadow-sm text-sm font-medium">
+        ✅ Location detected successfully
+      </div>
+    </div>
 
-        {location && (
-          <LocationMap location={location} />
-        )}
+    <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200 h-[420px]">
+      <LocationMap location={location} />
+    </div>
 
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-4 mt-12 mb-10">
+  </div>
+)}
+
+       <div className="max-w-6xl mx-auto bg-lightblue rounded-3xl shadow-xl p-5 flex flex-col md:flex-row gap-4 mb-12 border border-slate-100">
           <input
             type="text"
             placeholder="Search restaurant..."
@@ -106,7 +150,7 @@ function Restaurants() {
             onChange={(e) =>
               setSearchTerm(e.target.value)
             }
-            className="flex-1 px-5 py-3 rounded-xl border bg-white"
+            className="flex-1 px-7 py-4 rounded-full bg-blue-100 border border-transparent focus:border-blue-500 focus:bg-white outline-none transition-all text-slate-700 placeholder:text-slate-400"
           />
 
           <select
@@ -114,7 +158,7 @@ function Restaurants() {
             onChange={(e) =>
               setCrowdFilter(e.target.value)
             }
-            className="px-5 py-3 rounded-xl border bg-white"
+            className="px-6 py-4 rounded-full bg-slate-100 border border-transparent focus:border-blue-500 focus:bg-white outline-none"
           >
             <option value="All">All Crowds</option>
             <option value="Low">Low</option>
@@ -129,17 +173,22 @@ function Restaurants() {
           </p>
         )}
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto pb-20">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 max-w-6xl mx-auto pb-20">
           {filteredRestaurants.map((restaurant) => (
-            <RestaurantCard
-              key={restaurant._id}
-              id={restaurant._id}
-              image={restaurant.image}
-              name={restaurant.name}
-              rating={restaurant.rating}
-              crowd={restaurant.crowdLevel}
-              waitTime={restaurant.waitTime}
-            />
+          <RestaurantCard
+  key={restaurant._id}
+  id={restaurant._id}
+  image={restaurant.image}
+  name={restaurant.name}
+  rating={restaurant.rating}
+  crowd={restaurant.crowdLevel || "Unknown"}
+  waitTime={restaurant.waitTime}
+  distance={restaurant.distance}
+  openingTime={restaurant.openingTime}
+  closingTime={restaurant.closingTime}
+  openingHours={restaurant.openingHours}
+  source={restaurant.source}
+/>
           ))}
         </div>
       </section>

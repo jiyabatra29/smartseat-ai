@@ -19,7 +19,7 @@ const reviewSchema = new mongoose.Schema(
     restaurantOwner: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      required: true,
+      
     },
 
     name: {

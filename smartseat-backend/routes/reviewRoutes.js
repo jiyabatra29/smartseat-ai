@@ -45,9 +45,15 @@ router.post("/", auth, async (req, res) => {
       comment,
     } = req.body;
 
-    const restaurant = await Restaurant.findById(
-      restaurantId
-    );
+    console.log("REQ BODY =", req.body);
+console.log("COMMENT =", comment);
+console.log("USER =", req.user);
+console.log("RESTAURANT ID =", restaurantId);
+
+    const restaurant = await Restaurant.findById(restaurantId).select("+owner");
+
+console.log("Restaurant =", restaurant);
+console.log("Owner =", restaurant?.owner);
 
     if (!restaurant) {
       return res.status(404).json({
@@ -55,14 +61,20 @@ router.post("/", auth, async (req, res) => {
       });
     }
 
+    // NOTE: owner is optional here on purpose.
+    // Some restaurants (older records / API-sourced ones) may not have
+    // an owner set, and that should not block users from reviewing them.
+
     const review = new Review({
       restaurantId,
-      restaurantOwner: restaurant.owner,
+      restaurantOwner: restaurant.owner || null,
       userId: req.user.id,
       name,
       rating,
       comment,
     });
+
+    console.log("REVIEW OBJECT =", review);
 
     const savedReview = await review.save();
 
@@ -72,15 +84,14 @@ router.post("/", auth, async (req, res) => {
     });
 
   } catch (error) {
+  console.error(error);
 
-    console.log(error);
-
-    res.status(500).json({
-      message: "Server Error",
-    });
-
-  }
+  res.status(500).json({
+    message: error.message,
+  });
+}
 });
+
 
 // =======================
 // GET REVIEWS
@@ -127,6 +138,7 @@ router.delete("/:id", auth, async (req, res) => {
       review.userId.toString() === req.user.id;
 
     const isRestaurantOwner =
+      review.restaurantOwner &&
       review.restaurantOwner.toString() === req.user.id;
 
     if (!isReviewOwner && !isRestaurantOwner) {

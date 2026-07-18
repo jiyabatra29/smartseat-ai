@@ -8,17 +8,18 @@ function EditRestaurant() {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const [formData, setFormData] = useState({
-    name: "",
-    rating: "",
-    crowdLevel: "Low",
-    crowd: "",
-    waitTime: "",
-    image: "",
-    day: "Monday",
-    hour: 12,
-    weekend: 0,
-  });
+ const [formData, setFormData] = useState({
+  name: "",
+  rating: "",
+  crowdLevel: "Low",
+  crowd: "",
+  image: "",
+  openingTime: "09:00",
+  closingTime: "22:00",
+  day: "Monday",
+  hour: 12,
+  weekend: 0,
+});
 
   useEffect(() => {
     fetchRestaurant();
@@ -129,15 +130,39 @@ await axios.put(
               required
             />
 
-            <input
-              type="number"
-              name="waitTime"
-              value={formData.waitTime}
-              onChange={handleChange}
-              placeholder="Wait Time (mins)"
-              className="w-full border p-3 rounded-lg"
-              required
-            />
+            <div className="grid grid-cols-2 gap-4">
+
+  <div>
+    <label className="block mb-2 font-medium">
+      Opening Time
+    </label>
+
+    <input
+      type="time"
+      name="openingTime"
+      value={formData.openingTime}
+      onChange={handleChange}
+      className="w-full border p-3 rounded-lg"
+      required
+    />
+  </div>
+
+  <div>
+    <label className="block mb-2 font-medium">
+      Closing Time
+    </label>
+
+    <input
+      type="time"
+      name="closingTime"
+      value={formData.closingTime}
+      onChange={handleChange}
+      className="w-full border p-3 rounded-lg"
+      required
+    />
+  </div>
+
+</div>
 
             <input
               type="text"
