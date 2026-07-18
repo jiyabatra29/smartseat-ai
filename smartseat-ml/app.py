@@ -3,6 +3,7 @@ from flask_cors import CORS
 import pandas as pd
 import joblib
 from datetime import datetime
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -117,5 +118,8 @@ def home():
     return "SmartSeat AI Server Running"
 
 
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    port = int(os.environ.get("PORT", 5001))
+    app.run(host="0.0.0.0", port=port)
