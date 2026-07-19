@@ -113,7 +113,7 @@ function RestaurantDetails() {
       setPredictLoading(true);
 
       const predictionRes = await axios.post(
-        "http://127.0.0.1:5001/predict",
+        "https://smartseat-ai-1.onrender.com/predict",
         {
           restaurant: restaurant.name,
           crowd: restaurant.crowd,
