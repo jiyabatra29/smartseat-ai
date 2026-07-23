@@ -778,7 +778,6 @@ setPrediction(null);
 
 navigate(`/restaurant/${item._id}`);
 
-window.location.reload();
 
 }}
                         className="w-full mt-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white py-3 rounded-2xl font-semibold shadow-md transition"
